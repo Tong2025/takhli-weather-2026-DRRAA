@@ -922,5 +922,695 @@ window.TAKHLI_00Z_DATA = {
       "sweatIndex": 218.6,
       "precipitableWaterTotalCm": 6.15
     }
+  ],
+  "rongKwangRecords": [
+    {
+      "date": "2026-01-29",
+      "liftedIndex50mb": 8.0,
+      "showalterIndex": 6.5,
+      "kIndex": 0.7,
+      "sweatIndex": 142.8,
+      "precipitableWaterTotalCm": 2.52
+    },
+    {
+      "date": "2026-01-30",
+      "liftedIndex50mb": 8.4,
+      "showalterIndex": 6.0,
+      "kIndex": 1.5,
+      "sweatIndex": 163.0,
+      "precipitableWaterTotalCm": 2.41
+    },
+    {
+      "date": "2026-01-31",
+      "liftedIndex50mb": 9.3,
+      "showalterIndex": 8.0,
+      "kIndex": -0.7,
+      "sweatIndex": 120.2,
+      "precipitableWaterTotalCm": 2.22
+    },
+    {
+      "date": "2026-02-01",
+      "liftedIndex50mb": 8.0,
+      "showalterIndex": 5.0,
+      "kIndex": 5.7,
+      "sweatIndex": 135.2,
+      "precipitableWaterTotalCm": 2.48
+    },
+    {
+      "date": "2026-02-02",
+      "liftedIndex50mb": 5.9,
+      "showalterIndex": 5.1,
+      "kIndex": 3.3,
+      "sweatIndex": 111.8,
+      "precipitableWaterTotalCm": 2.49
+    },
+    {
+      "date": "2026-02-03",
+      "liftedIndex50mb": 9.8,
+      "showalterIndex": 9.7,
+      "kIndex": -3.7,
+      "sweatIndex": 99.2,
+      "precipitableWaterTotalCm": 2.15
+    },
+    {
+      "date": "2026-02-04",
+      "liftedIndex50mb": 10.5,
+      "showalterIndex": 8.5,
+      "kIndex": -1.7,
+      "sweatIndex": 106.6,
+      "precipitableWaterTotalCm": 2.23
+    },
+    {
+      "date": "2026-02-06",
+      "liftedIndex50mb": 8.1,
+      "showalterIndex": 4.5,
+      "kIndex": 3.9,
+      "sweatIndex": 188.2,
+      "precipitableWaterTotalCm": 2.82
+    },
+    {
+      "date": "2026-02-07",
+      "liftedIndex50mb": 3.3,
+      "showalterIndex": 2.3,
+      "kIndex": 6.1,
+      "sweatIndex": 163.8,
+      "precipitableWaterTotalCm": 2.59
+    },
+    {
+      "date": "2026-02-08",
+      "liftedIndex50mb": 7.0,
+      "showalterIndex": 3.3,
+      "kIndex": 12.9,
+      "sweatIndex": 203.6,
+      "precipitableWaterTotalCm": 3.1
+    },
+    {
+      "date": "2026-02-09",
+      "liftedIndex50mb": 8.4,
+      "showalterIndex": 7.0,
+      "kIndex": 23.2,
+      "sweatIndex": 203.0,
+      "precipitableWaterTotalCm": 3.35
+    },
+    {
+      "date": "2026-02-10",
+      "liftedIndex50mb": 5.7,
+      "showalterIndex": 5.9,
+      "kIndex": 29.2,
+      "sweatIndex": 183.8,
+      "precipitableWaterTotalCm": 3.61
+    },
+    {
+      "date": "2026-02-11",
+      "liftedIndex50mb": 4.8,
+      "showalterIndex": 4.4,
+      "kIndex": 28.3,
+      "sweatIndex": 184.0,
+      "precipitableWaterTotalCm": 3.37
+    },
+    {
+      "date": "2026-02-12",
+      "liftedIndex50mb": 5.4,
+      "showalterIndex": 6.2,
+      "kIndex": 28.9,
+      "sweatIndex": 145.6,
+      "precipitableWaterTotalCm": 3.14
+    },
+    {
+      "date": "2026-02-13",
+      "liftedIndex50mb": 7.4,
+      "showalterIndex": 7.1,
+      "kIndex": 30.0,
+      "sweatIndex": 158.0,
+      "precipitableWaterTotalCm": 2.81
+    },
+    {
+      "date": "2026-02-14",
+      "liftedIndex50mb": 8.0,
+      "showalterIndex": 3.9,
+      "kIndex": 7.1,
+      "sweatIndex": 168.6,
+      "precipitableWaterTotalCm": 2.78
+    },
+    {
+      "date": "2026-02-15",
+      "liftedIndex50mb": 8.0,
+      "showalterIndex": 7.5,
+      "kIndex": 0.9,
+      "sweatIndex": 120.6,
+      "precipitableWaterTotalCm": 2.52
+    },
+    {
+      "date": "2026-02-16",
+      "liftedIndex50mb": 6.3,
+      "showalterIndex": 4.0,
+      "kIndex": 5.3,
+      "sweatIndex": 173.4,
+      "precipitableWaterTotalCm": 3.1
+    },
+    {
+      "date": "2026-02-17",
+      "liftedIndex50mb": 3.1,
+      "showalterIndex": 3.3,
+      "kIndex": 34.4,
+      "sweatIndex": 156.8,
+      "precipitableWaterTotalCm": 3.53
+    },
+    {
+      "date": "2026-02-18",
+      "liftedIndex50mb": 2.8,
+      "showalterIndex": 2.4,
+      "kIndex": 36.5,
+      "sweatIndex": 158.4,
+      "precipitableWaterTotalCm": 3.81
+    },
+    {
+      "date": "2026-02-19",
+      "liftedIndex50mb": 3.0,
+      "showalterIndex": 2.5,
+      "kIndex": 33.6,
+      "sweatIndex": 173.8,
+      "precipitableWaterTotalCm": 3.88
+    },
+    {
+      "date": "2026-02-20",
+      "liftedIndex50mb": 1.9,
+      "showalterIndex": 0.2,
+      "kIndex": 36.2,
+      "sweatIndex": 195.6,
+      "precipitableWaterTotalCm": 4.37
+    },
+    {
+      "date": "2026-02-21",
+      "liftedIndex50mb": -1.2,
+      "showalterIndex": -2.7,
+      "kIndex": 37.1,
+      "sweatIndex": 267.6,
+      "precipitableWaterTotalCm": 4.2
+    },
+    {
+      "date": "2026-02-22",
+      "liftedIndex50mb": -1.5,
+      "showalterIndex": 1.2,
+      "kIndex": 34.4,
+      "sweatIndex": 165.2,
+      "precipitableWaterTotalCm": 4.39
+    },
+    {
+      "date": "2026-02-23",
+      "liftedIndex50mb": 0.1,
+      "showalterIndex": 0.2,
+      "kIndex": 29.3,
+      "sweatIndex": 209.2,
+      "precipitableWaterTotalCm": 4.31
+    },
+    {
+      "date": "2026-02-24",
+      "liftedIndex50mb": 3.7,
+      "showalterIndex": 1.7,
+      "kIndex": 34.4,
+      "sweatIndex": 184.2,
+      "precipitableWaterTotalCm": 4.41
+    },
+    {
+      "date": "2026-02-25",
+      "liftedIndex50mb": 1.0,
+      "showalterIndex": 1.4,
+      "kIndex": 35.3,
+      "sweatIndex": 214.8,
+      "precipitableWaterTotalCm": 4.61
+    },
+    {
+      "date": "2026-02-26",
+      "liftedIndex50mb": 5.4,
+      "showalterIndex": 0.8,
+      "kIndex": 30.6,
+      "sweatIndex": 242.8,
+      "precipitableWaterTotalCm": 4.0
+    },
+    {
+      "date": "2026-02-28",
+      "liftedIndex50mb": 3.6,
+      "showalterIndex": 6.8,
+      "kIndex": 29.7,
+      "sweatIndex": 175.6,
+      "precipitableWaterTotalCm": 3.66
+    },
+    {
+      "date": "2026-03-01",
+      "liftedIndex50mb": 5.1,
+      "showalterIndex": 8.0,
+      "kIndex": 29.3,
+      "sweatIndex": 164.6,
+      "precipitableWaterTotalCm": 3.08
+    },
+    {
+      "date": "2026-03-02",
+      "liftedIndex50mb": 8.3,
+      "showalterIndex": 10.9,
+      "kIndex": -3.5,
+      "sweatIndex": 204.8,
+      "precipitableWaterTotalCm": 2.09
+    },
+    {
+      "date": "2026-03-03",
+      "liftedIndex50mb": 9.6,
+      "showalterIndex": 8.9,
+      "kIndex": 26.1,
+      "sweatIndex": 109.6,
+      "precipitableWaterTotalCm": 2.36
+    },
+    {
+      "date": "2026-03-04",
+      "liftedIndex50mb": 8.6,
+      "showalterIndex": 7.7,
+      "kIndex": 21.3,
+      "sweatIndex": 89.0,
+      "precipitableWaterTotalCm": 2.36
+    },
+    {
+      "date": "2026-03-05",
+      "liftedIndex50mb": 2.4,
+      "showalterIndex": 0.6,
+      "kIndex": 27.3,
+      "sweatIndex": 174.6,
+      "precipitableWaterTotalCm": 2.68
+    },
+    {
+      "date": "2026-03-06",
+      "liftedIndex50mb": -1.1,
+      "showalterIndex": -1.8,
+      "kIndex": 38.7,
+      "sweatIndex": 212.8,
+      "precipitableWaterTotalCm": 3.64
+    },
+    {
+      "date": "2026-03-07",
+      "liftedIndex50mb": 1.5,
+      "showalterIndex": 0.2,
+      "kIndex": 29.4,
+      "sweatIndex": 202.8,
+      "precipitableWaterTotalCm": 3.75
+    },
+    {
+      "date": "2026-03-08",
+      "liftedIndex50mb": 0.8,
+      "showalterIndex": -1.1,
+      "kIndex": 35.2,
+      "sweatIndex": 195.6,
+      "precipitableWaterTotalCm": 3.51
+    },
+    {
+      "date": "2026-03-09",
+      "liftedIndex50mb": 1.9,
+      "showalterIndex": 0.0,
+      "kIndex": 38.0,
+      "sweatIndex": 208.0,
+      "precipitableWaterTotalCm": 3.9
+    },
+    {
+      "date": "2026-03-10",
+      "liftedIndex50mb": 1.8,
+      "showalterIndex": 1.5,
+      "kIndex": 26.9,
+      "sweatIndex": 178.8,
+      "precipitableWaterTotalCm": 3.62
+    },
+    {
+      "date": "2026-03-11",
+      "liftedIndex50mb": 0.0,
+      "showalterIndex": -2.0,
+      "kIndex": 36.9,
+      "sweatIndex": 217.0,
+      "precipitableWaterTotalCm": 4.17
+    },
+    {
+      "date": "2026-03-12",
+      "liftedIndex50mb": 1.1,
+      "showalterIndex": 2.5,
+      "kIndex": 32.0,
+      "sweatIndex": 122.6,
+      "precipitableWaterTotalCm": 3.57
+    },
+    {
+      "date": "2026-03-13",
+      "liftedIndex50mb": 0.7,
+      "showalterIndex": -0.4,
+      "kIndex": 37.1,
+      "sweatIndex": 166.6,
+      "precipitableWaterTotalCm": 4.31
+    },
+    {
+      "date": "2026-03-14",
+      "liftedIndex50mb": 0.5,
+      "showalterIndex": -0.6,
+      "kIndex": 34.4,
+      "sweatIndex": 162.0,
+      "precipitableWaterTotalCm": 3.77
+    },
+    {
+      "date": "2026-03-15",
+      "liftedIndex50mb": 1.1,
+      "showalterIndex": -0.1,
+      "kIndex": 35.3,
+      "sweatIndex": 174.4,
+      "precipitableWaterTotalCm": 3.78
+    },
+    {
+      "date": "2026-03-16",
+      "liftedIndex50mb": 3.3,
+      "showalterIndex": 1.7,
+      "kIndex": 34.7,
+      "sweatIndex": 197.0,
+      "precipitableWaterTotalCm": 3.85
+    },
+    {
+      "date": "2026-03-17",
+      "liftedIndex50mb": 2.1,
+      "showalterIndex": 0.7,
+      "kIndex": 37.2,
+      "sweatIndex": 197.0,
+      "precipitableWaterTotalCm": 3.86
+    },
+    {
+      "date": "2026-03-18",
+      "liftedIndex50mb": -1.4,
+      "showalterIndex": -2.3,
+      "kIndex": 31.3,
+      "sweatIndex": 233.8,
+      "precipitableWaterTotalCm": 3.44
+    },
+    {
+      "date": "2026-03-19",
+      "liftedIndex50mb": 1.8,
+      "showalterIndex": 0.8,
+      "kIndex": 29.3,
+      "sweatIndex": 189.4,
+      "precipitableWaterTotalCm": 3.22
+    },
+    {
+      "date": "2026-03-20",
+      "liftedIndex50mb": 0.7,
+      "showalterIndex": 2.1,
+      "kIndex": 21.3,
+      "sweatIndex": 198.6,
+      "precipitableWaterTotalCm": 3.61
+    },
+    {
+      "date": "2026-03-21",
+      "liftedIndex50mb": -1.6,
+      "showalterIndex": 0.3,
+      "kIndex": 27.5,
+      "sweatIndex": 217.0,
+      "precipitableWaterTotalCm": 4.04
+    },
+    {
+      "date": "2026-03-22",
+      "liftedIndex50mb": -0.5,
+      "showalterIndex": -0.3,
+      "kIndex": 37.3,
+      "sweatIndex": 368.9,
+      "precipitableWaterTotalCm": 4.57
+    },
+    {
+      "date": "2026-03-23",
+      "liftedIndex50mb": -0.9,
+      "showalterIndex": 4.5,
+      "kIndex": 23.1,
+      "sweatIndex": 167.0,
+      "precipitableWaterTotalCm": 3.2
+    },
+    {
+      "date": "2026-03-24",
+      "liftedIndex50mb": 2.8,
+      "showalterIndex": 4.5,
+      "kIndex": 4.7,
+      "sweatIndex": 233.4,
+      "precipitableWaterTotalCm": 2.55
+    },
+    {
+      "date": "2026-03-25",
+      "liftedIndex50mb": 0.7,
+      "showalterIndex": 2.5,
+      "kIndex": 27.1,
+      "sweatIndex": 189.4,
+      "precipitableWaterTotalCm": 3.45
+    },
+    {
+      "date": "2026-03-26",
+      "liftedIndex50mb": 1.5,
+      "showalterIndex": 6.5,
+      "kIndex": 9.1,
+      "sweatIndex": 103.4,
+      "precipitableWaterTotalCm": 2.74
+    },
+    {
+      "date": "2026-03-27",
+      "liftedIndex50mb": 0.5,
+      "showalterIndex": 1.4,
+      "kIndex": 9.1,
+      "sweatIndex": 296.3,
+      "precipitableWaterTotalCm": 3.03
+    },
+    {
+      "date": "2026-03-28",
+      "liftedIndex50mb": -2.5,
+      "showalterIndex": 0.5,
+      "kIndex": 20.7,
+      "sweatIndex": 170.2,
+      "precipitableWaterTotalCm": 3.6
+    },
+    {
+      "date": "2026-03-29",
+      "liftedIndex50mb": -4.3,
+      "showalterIndex": -4.1,
+      "kIndex": 35.1,
+      "sweatIndex": 320.8,
+      "precipitableWaterTotalCm": 3.57
+    },
+    {
+      "date": "2026-03-30",
+      "liftedIndex50mb": -1.0,
+      "showalterIndex": 2.3,
+      "kIndex": 23.3,
+      "sweatIndex": 167.6,
+      "precipitableWaterTotalCm": 3.2
+    },
+    {
+      "date": "2026-03-31",
+      "liftedIndex50mb": 0.4,
+      "showalterIndex": 4.3,
+      "kIndex": 27.3,
+      "sweatIndex": 157.0,
+      "precipitableWaterTotalCm": 3.03
+    },
+    {
+      "date": "2026-05-01",
+      "liftedIndex50mb": -0.8,
+      "showalterIndex": 2.2,
+      "kIndex": 32.1,
+      "sweatIndex": 209.0,
+      "precipitableWaterTotalCm": 4.76
+    },
+    {
+      "date": "2026-05-02",
+      "liftedIndex50mb": -1.7,
+      "showalterIndex": 4.8,
+      "kIndex": 25.3,
+      "sweatIndex": 172.0,
+      "precipitableWaterTotalCm": 3.82
+    },
+    {
+      "date": "2026-05-03",
+      "liftedIndex50mb": -1.9,
+      "showalterIndex": 4.3,
+      "kIndex": 30.4,
+      "sweatIndex": 148.2,
+      "precipitableWaterTotalCm": 4.15
+    },
+    {
+      "date": "2026-05-04",
+      "liftedIndex50mb": -1.0,
+      "showalterIndex": -1.2,
+      "kIndex": 39.6,
+      "sweatIndex": 208.4,
+      "precipitableWaterTotalCm": 4.94
+    },
+    {
+      "date": "2026-05-05",
+      "liftedIndex50mb": -2.7,
+      "showalterIndex": -2.9,
+      "kIndex": 41.5,
+      "sweatIndex": 264.4,
+      "precipitableWaterTotalCm": 5.72
+    },
+    {
+      "date": "2026-05-06",
+      "liftedIndex50mb": -2.7,
+      "showalterIndex": -2.1,
+      "kIndex": 38.4,
+      "sweatIndex": 237.6,
+      "precipitableWaterTotalCm": 5.69
+    },
+    {
+      "date": "2026-05-07",
+      "liftedIndex50mb": -3.1,
+      "showalterIndex": -2.4,
+      "kIndex": 40.0,
+      "sweatIndex": 237.6,
+      "precipitableWaterTotalCm": 5.82
+    },
+    {
+      "date": "2026-05-08",
+      "liftedIndex50mb": -0.9,
+      "showalterIndex": -2.2,
+      "kIndex": 39.7,
+      "sweatIndex": 226.6,
+      "precipitableWaterTotalCm": 5.69
+    },
+    {
+      "date": "2026-05-09",
+      "liftedIndex50mb": -1.5,
+      "showalterIndex": -1.0,
+      "kIndex": 40.0,
+      "sweatIndex": 231.6,
+      "precipitableWaterTotalCm": 6.35
+    },
+    {
+      "date": "2026-05-10",
+      "liftedIndex50mb": -3.0,
+      "showalterIndex": -2.0,
+      "kIndex": 40.1,
+      "sweatIndex": 237.0,
+      "precipitableWaterTotalCm": 6.1
+    },
+    {
+      "date": "2026-05-11",
+      "liftedIndex50mb": -2.0,
+      "showalterIndex": -1.2,
+      "kIndex": 39.4,
+      "sweatIndex": 252.4,
+      "precipitableWaterTotalCm": 5.76
+    },
+    {
+      "date": "2026-05-12",
+      "liftedIndex50mb": 0.1,
+      "showalterIndex": -0.1,
+      "kIndex": 35.6,
+      "sweatIndex": 250.2,
+      "precipitableWaterTotalCm": 6.02
+    },
+    {
+      "date": "2026-05-13",
+      "liftedIndex50mb": -1.2,
+      "showalterIndex": -0.7,
+      "kIndex": 39.0,
+      "sweatIndex": 255.6,
+      "precipitableWaterTotalCm": 6.12
+    },
+    {
+      "date": "2026-05-14",
+      "liftedIndex50mb": -2.3,
+      "showalterIndex": -1.1,
+      "kIndex": 38.7,
+      "sweatIndex": 252.6,
+      "precipitableWaterTotalCm": 6.59
+    },
+    {
+      "date": "2026-05-15",
+      "liftedIndex50mb": -3.5,
+      "showalterIndex": 0.8,
+      "kIndex": 34.6,
+      "sweatIndex": 252.6,
+      "precipitableWaterTotalCm": 6.56
+    },
+    {
+      "date": "2026-05-16",
+      "liftedIndex50mb": -0.8,
+      "showalterIndex": 0.9,
+      "kIndex": 35.9,
+      "sweatIndex": 250.0,
+      "precipitableWaterTotalCm": 6.35
+    },
+    {
+      "date": "2026-05-17",
+      "liftedIndex50mb": -1.8,
+      "showalterIndex": 0.6,
+      "kIndex": 35.3,
+      "sweatIndex": 213.2,
+      "precipitableWaterTotalCm": 5.33
+    },
+    {
+      "date": "2026-05-18",
+      "liftedIndex50mb": -2.6,
+      "showalterIndex": -0.8,
+      "kIndex": 39.8,
+      "sweatIndex": 254.0,
+      "precipitableWaterTotalCm": 5.81
+    },
+    {
+      "date": "2026-05-19",
+      "liftedIndex50mb": -1.6,
+      "showalterIndex": -1.0,
+      "kIndex": 36.8,
+      "sweatIndex": 243.4,
+      "precipitableWaterTotalCm": 6.55
+    },
+    {
+      "date": "2026-05-20",
+      "liftedIndex50mb": -2.5,
+      "showalterIndex": -1.3,
+      "kIndex": 40.6,
+      "sweatIndex": 227.4,
+      "precipitableWaterTotalCm": 6.68
+    },
+    {
+      "date": "2026-05-21",
+      "liftedIndex50mb": -1.5,
+      "showalterIndex": 1.0,
+      "kIndex": 37.1,
+      "sweatIndex": 216.4,
+      "precipitableWaterTotalCm": 6.58
+    },
+    {
+      "date": "2026-05-22",
+      "liftedIndex50mb": -1.0,
+      "showalterIndex": -0.4,
+      "kIndex": 36.5,
+      "sweatIndex": 263.0,
+      "precipitableWaterTotalCm": 6.54
+    },
+    {
+      "date": "2026-05-23",
+      "liftedIndex50mb": -2.2,
+      "showalterIndex": -0.9,
+      "kIndex": 35.8,
+      "sweatIndex": 261.4,
+      "precipitableWaterTotalCm": 6.62
+    },
+    {
+      "date": "2026-05-24",
+      "liftedIndex50mb": -5.6,
+      "showalterIndex": -2.2,
+      "kIndex": 37.9,
+      "sweatIndex": 268.6,
+      "precipitableWaterTotalCm": 6.45
+    },
+    {
+      "date": "2026-05-25",
+      "liftedIndex50mb": -2.1,
+      "showalterIndex": -1.2,
+      "kIndex": 39.5,
+      "sweatIndex": 247.8,
+      "precipitableWaterTotalCm": 6.13
+    },
+    {
+      "date": "2026-05-26",
+      "liftedIndex50mb": -2.1,
+      "showalterIndex": -0.6,
+      "kIndex": 35.4,
+      "sweatIndex": 247.2,
+      "precipitableWaterTotalCm": 5.87
+    }
   ]
 };
