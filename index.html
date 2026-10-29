@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="กราฟดัชนีเสถียรภาพบรรยากาศจากข้อมูลตรวจอากาศชั้นบนเวลา 00Z ของตาคลี ปี 2026">
+  <title>ดัชนีอากาศ 00Z · ตาคลี 2026</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101827; --panel:#172235; --line:#29364b; --muted:#9ba9bc; --text:#f2f5fa; --accent:#a8b8d2; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:radial-gradient(ellipse at 85% -10%, #243552 0, transparent 44%),var(--bg); color:var(--text); font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(1280px,100% - 40px); margin:0 auto; padding:50px 0 54px; }
+    .eyebrow { color:#9ab4db; text-transform:uppercase; letter-spacing:.15em; font-size:12px; font-weight:700; }
+    h1 { margin:8px 0 9px; font-size:clamp(28px,5vw,44px); line-height:1.15; letter-spacing:-.035em; }
+    .intro { max-width:680px; margin:0; color:var(--muted); }
+    .topline { display:flex; justify-content:space-between; align-items:flex-end; gap:24px; }
+    .download { flex:none; color:#e7efff; text-decoration:none; padding:10px 14px; border:1px solid #3b4c67; border-radius:10px; background:#1a2940; font-weight:650; }
+    .download:hover { background:#243752; border-color:#6680aa; }
+    .dashboard { margin:28px 0 42px; padding:22px; border:1px solid #2d3d55; border-radius:17px; background:linear-gradient(145deg,#1b2940,#151f30 75%); box-shadow:0 14px 34px #080d1648; }
+    .section-title { margin:0; font-size:21px; letter-spacing:-.02em; }
+    .section-subtitle { margin:4px 0 0; color:var(--muted); font-size:13px; }
+    .stats { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:11px; margin:17px 0 14px; }
+    .stat { min-width:0; padding:11px 14px; border:1px solid #2b3a50; border-radius:11px; background:#111b2b80; }
+    .stat-label { color:var(--muted); font-size:12px; }
+    .stat-value { margin-top:2px; font-weight:700; font-variant-numeric:tabular-nums; }
+    .metric-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:11px; }
+    .metric-card { min-width:0; padding:14px; border:1px solid #2b3a50; border-radius:12px; background:#111b2b80; }
+    .metric-name { color:#c9d5e6; font-size:12px; line-height:1.35; min-height:33px; }
+    .metric-value { margin-top:8px; color:#fff; font-size:clamp(20px,2.4vw,29px); font-weight:750; line-height:1.1; font-variant-numeric:tabular-nums; letter-spacing:-.03em; }
+    .metric-date { margin-top:7px; color:#91a2ba; font-size:11px; }
+    .plots { margin-top:4px; }
+    .plots-head { display:flex; justify-content:space-between; align-items:flex-end; gap:20px; flex-wrap:wrap; margin-bottom:14px; }
+    .tablist { display:flex; gap:7px; flex-wrap:wrap; }
+    .plot-tab { border:1px solid #34445d; border-radius:9px; padding:8px 12px; background:#162237; color:#b5c2d5; font:inherit; font-size:13px; font-weight:620; cursor:pointer; transition:background .15s,border-color .15s,color .15s; }
+    .plot-tab:hover { border-color:#7b91b3; color:#fff; }
+    .plot-tab[aria-selected="true"] { border-color:#8fa9d2; background:#2b3d59; color:#fff; box-shadow:inset 0 -2px #aac5f0; }
+    .chart-card { min-width:0; overflow:hidden; border:1px solid #28374c; border-radius:15px; background:linear-gradient(145deg,#1a273b,#151f30 70%); box-shadow:0 12px 30px #080d1660; }
+    .card-head { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:17px 19px 0; }
+    .card-head h2 { margin:0; font-size:16px; font-weight:680; }
+    .unit { color:var(--muted); font-size:12px; white-space:nowrap; }
+    .chart-wrap { position:relative; padding:3px 12px 12px 4px; }
+    svg { display:block; width:100%; height:auto; overflow:visible; }
+    .gridline { stroke:#dce2eb; stroke-width:1; }
+    .axis-label { fill:#435066; font-size:12px; }
+    .series-line { fill:none; stroke-width:2.2; stroke-dasharray:7 4 1.5 4; stroke-linejoin:round; stroke-linecap:round; }
+    .point { stroke:#fff; stroke-width:1.5; cursor:crosshair; }
+    .chart-wrap { position:relative; margin:11px 13px 0; border-radius:9px; padding:7px 8px 0 4px; background:#fff; }
+    .chart-footer { display:flex; flex-wrap:wrap; gap:9px 18px; align-items:center; padding:11px 18px 16px; color:#c4cee0; font-size:12px; }
+    .legend-item { display:inline-flex; align-items:center; gap:7px; }
+    .legend-line { display:inline-block; width:25px; height:0; border-top:2px dashed #4b0082; }
+    .legend-threshold { display:inline-block; width:25px; height:0; border-top:1.5px solid #f08080; }
+    .season-chip { display:inline-block; width:11px; height:11px; border-radius:3px; }
+    .point:focus { outline:none; stroke:#fff; stroke-width:3; }
+    .tooltip { position:absolute; z-index:2; display:none; min-width:130px; pointer-events:none; border:1px solid #425574; border-radius:9px; padding:8px 10px; background:#0c1421f2; box-shadow:0 8px 24px #0006; font-size:12px; }
+    .tip-date { color:#b8c7dc; }
+    .tip-value { margin-top:2px; font-weight:750; font-variant-numeric:tabular-nums; }
+    .error { display:none; padding:18px; border:1px solid #8c4d4d; border-radius:12px; background:#3b2026; color:#ffd8d8; }
+    @media (max-width:850px) { .metric-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+    @media (max-width:600px) { main { width:min(100% - 24px,600px); padding-top:30px; } .topline { align-items:flex-start; flex-direction:column; } .dashboard { padding:16px; margin:22px 0 32px; } .stats { grid-template-columns:1fr; } .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .metric-card:last-child { grid-column:1 / -1; } .download { padding:8px 12px; } .tablist { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); width:100%; } .plot-tab { padding:9px 7px; } .plots-head { align-items:flex-start; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Upper-air sounding · 00Z · Takhli</div>
+      <div class="topline">
+        <div>
+          <h1>ดัชนีเสถียรภาพบรรยากาศ</h1>
+          <p class="intro">ข้อมูลตรวจอากาศชั้นบนตาคลี ปี 2026 แสดงแนวโน้มแต่ละดัชนีตามวันตรวจ คลิกหรือแตะจุดบนกราฟเพื่อดูค่าของวันนั้น</p>
+        </div>
+        <a class="download" href="data.json" download>ดาวน์โหลดข้อมูล JSON ↓</a>
+      </div>
+    </header>
+    <div id="error" class="error" role="alert">โหลดข้อมูลไม่สำเร็จ กรุณาเปิดเว็บผ่าน GitHub Pages หรือเว็บเซิร์ฟเวอร์ และตรวจว่าไฟล์ data.json อยู่ในโฟลเดอร์เดียวกับ index.html</div>
+    <section class="dashboard" aria-labelledby="dashboard-title">
+      <div><h2 class="section-title" id="dashboard-title">แดชบอร์ดข้อมูล 00Z</h2><p class="section-subtitle">ค่าล่าสุดของแต่ละดัชนีและภาพรวมชุดข้อมูล</p></div>
+      <div class="stats" aria-label="สรุปข้อมูล">
+        <div class="stat"><div class="stat-label">จำนวนวันตรวจ</div><div class="stat-value" id="count">—</div></div>
+        <div class="stat"><div class="stat-label">ช่วงวันที่</div><div class="stat-value" id="period">—</div></div>
+        <div class="stat"><div class="stat-label">ข้อมูลล่าสุด</div><div class="stat-value" id="end">—</div></div>
+      </div>
+      <div class="metric-grid" id="metrics" aria-label="ค่าล่าสุดแยกตามดัชนี"></div>
+    </section>
+    <section class="plots" aria-labelledby="plots-title">
+      <div class="plots-head"><div><div class="eyebrow">Trend by sounding date</div><h2 class="section-title" id="plots-title">กราฟแนวโน้มรายดัชนี</h2><p class="section-subtitle">เลือกแท็บเพื่อดูกราฟทีละรายการ</p></div><div class="tablist" id="tabs" role="tablist" aria-label="เลือกดัชนี"></div></div>
+      <div id="chart-panel" role="tabpanel" aria-live="polite"></div>
+    </section>
+  </main>
+  <script src="./data.js"></script>
+  <script>
+    const series = [
+      { key:'liftedIndex50mb', short:'LI', dashTitle:'50 MB Lifted Index', title:'50 MB Lifted Index; LI', color:'#4b0082', precision:1, range:[-7.5,15], threshold:3, thresholdLabel:'LI > 3 · มวลอากาศไม่มีการยกตัว' },
+      { key:'showalterIndex', short:'SI', dashTitle:'Showalter Index', title:'Showalter Index; SI', color:'#4b0082', precision:1, range:[-7.5,20], threshold:3, thresholdLabel:'SI > 3 · มวลอากาศไม่มีการยกตัว' },
+      { key:'kIndex', short:'KI', dashTitle:'K Index', title:'K Index; KI', color:'#4b0082', precision:1, threshold:15, thresholdLabel:'KI < 15 · ไม่มีโอกาสเกิดฝนฟ้าคะนอง' },
+      { key:'sweatIndex', short:'SWEAT', dashTitle:'SWEAT Index', title:'Severe Weather Threat Index; SWEAT', color:'#4b0082', precision:1, range:[0,500], threshold:199, thresholdLabel:'SWEAT ≤ 199 · ไม่มีโอกาสพัฒนาเป็นพายุ' },
+      { key:'precipitableWaterTotalCm', short:'PW', dashTitle:'Precipitable Water Total', title:'Precipitable Water; PW', unit:'cm', color:'#4b0082', precision:2, range:[-1,7], threshold:3.8, thresholdLabel:'PW > 3.8 cm · เกณฑ์ปริมาณน้ำในบรรยากาศ' },
+    ];
+    const dateFmt = new Intl.DateTimeFormat('th-TH-u-ca-buddhist',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
+    const monthFmt = new Intl.DateTimeFormat('th-TH-u-ca-buddhist',{month:'short',timeZone:'UTC'});
+    const numberFmt = (n,p) => Number(n).toLocaleString('en-US',{minimumFractionDigits:p,maximumFractionDigits:p});
+    const svgEl = (name, attrs={}) => { const el=document.createElementNS('http://www.w3.org/2000/svg',name); for(const [k,v] of Object.entries(attrs)) el.setAttribute(k,v); return el; };
+    const dateValue = s => Date.parse(`${s}T00:00:00Z`);
+    function renderChart(item, data) {
+      const W=900,H=350,L=75,R=18,T=19,B=54, PW=W-L-R, PH=H-T-B;
+      const values=data.map(d=>d[item.key]); let lo=item.range?.[0]??Math.min(...values), hi=item.range?.[1]??Math.max(...values);
+      if(!item.range){lo=Math.min(lo,item.threshold);hi=Math.max(hi,item.threshold);const pad=(hi-lo)*.12;lo-=pad;hi+=pad;}
+      if(lo===hi){lo-=1;hi+=1;}
+      const minDate=dateValue(data[0].date), maxDate=dateValue(data.at(-1).date), span=Math.max(1,maxDate-minDate);
+      const x=d=>L+(dateValue(d.date)-minDate)/span*PW;
+      const y=v=>T+(hi-v)/(hi-lo)*PH;
+      const svg=svgEl('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':`${item.title} ตามวันที่`});
+      const seasons=[
+        {label:'ฤดูร้อน',from:'2026-03-05',to:'2026-05-22',color:'#dc4559'},
+        {label:'ฤดูฝน',from:'2026-05-22',to:'2026-10-29',color:'#e4bd36'},
+      ];
+      for(const season of seasons){const left=Math.max(minDate,dateValue(season.from)),right=Math.min(maxDate,dateValue(season.to));if(right>left)svg.append(svgEl('rect',{x:L+(left-minDate)/span*PW,y:T,width:(right-left)/span*PW,height:PH,fill:season.color,opacity:'.12'}));}
+      const grid=svgEl('g');
+      for(let i=0;i<=4;i++){
+        const v=hi-(hi-lo)*i/4, yy=T+PH*i/4;
+        grid.append(svgEl('line',{x1:L,y1:yy,x2:W-R,y2:yy,class:'gridline'}));
+        const label=svgEl('text',{x:L-9,y:yy+4,'text-anchor':'end',class:'axis-label'}); label.textContent=numberFmt(v,item.precision); grid.append(label);
+      }
+      const tickDates=[]; const cursor=new Date(Date.UTC(new Date(minDate).getUTCFullYear(),new Date(minDate).getUTCMonth(),1));
+      while(cursor.getTime()<=maxDate){ if(cursor.getTime()>=minDate) tickDates.push(new Date(cursor)); cursor.setUTCMonth(cursor.getUTCMonth()+1); }
+      for(const date of tickDates){ const xx=L+(date.getTime()-minDate)/span*PW; grid.append(svgEl('line',{x1:xx,y1:T,x2:xx,y2:T+PH,class:'gridline',opacity:'.7'})); const text=svgEl('text',{x:xx,y:H-23,'text-anchor':'middle',class:'axis-label'}); text.textContent=monthFmt.format(date); grid.append(text); }
+      svg.append(grid);
+      const thresholdY=y(item.threshold);svg.append(svgEl('line',{x1:L,y1:thresholdY,x2:W-R,y2:thresholdY,stroke:'#f08080','stroke-width':'1.4'}));
+      let segment=[];
+      const drawSegment=()=>{ if(!segment.length)return; if(segment.length>1){ const points=segment.map(d=>`${x(d)},${y(d[item.key])}`).join(' '); svg.append(svgEl('polyline',{points,class:'series-line',stroke:item.color})); } segment.forEach(d=>{ const c=svgEl('circle',{cx:x(d),cy:y(d[item.key]),r:3.5,fill:item.color,class:'point',tabindex:'0','aria-label':`${dateFmt.format(new Date(dateValue(d.date)))}: ${numberFmt(d[item.key],item.precision)} ${item.unit||''}`}); c.dataset.date=d.date;c.dataset.value=d[item.key];c.dataset.precision=item.precision;c.dataset.unit=item.unit||''; svg.append(c); }); segment=[]; };
+      for(const d of data){ if(segment.length && dateValue(d.date)-dateValue(segment.at(-1).date)>3*86400000) drawSegment(); segment.push(d); } drawSegment();
+      const card=document.createElement('article'); card.className='chart-card';
+      const head=document.createElement('div');head.className='card-head';
+      const title=document.createElement('h2');title.textContent=item.title;
+      const unit=document.createElement('span');unit.className='unit';unit.textContent=item.unit||'ดัชนี';
+      head.append(title,unit);
+      const wrap=document.createElement('div');wrap.className='chart-wrap';wrap.append(svg);
+      const tip=document.createElement('div');tip.className='tooltip';tip.setAttribute('aria-hidden','true');wrap.append(tip);
+      const show=point=>{tip.innerHTML=`<div class="tip-date">${dateFmt.format(new Date(dateValue(point.dataset.date)))}</div><div class="tip-value">${numberFmt(point.dataset.value,Number(point.dataset.precision))} ${point.dataset.unit}</div>`;tip.style.display='block';tip.style.left=`${Math.min(Math.max(point.cx.baseVal.value/W*100,5),82)}%`;tip.style.top=`${Math.max(point.cy.baseVal.value/H*100-16,2)}%`;};
+      svg.addEventListener('pointerover',e=>{if(e.target.matches('.point'))show(e.target)});
+      svg.addEventListener('pointerout',e=>{if(e.target.matches('.point'))tip.style.display='none'});
+      svg.addEventListener('focusin',e=>{if(e.target.matches('.point'))show(e.target)});
+      svg.addEventListener('focusout',()=>{tip.style.display='none'});
+      const footer=document.createElement('div');footer.className='chart-footer';
+      footer.innerHTML=`<span class="legend-item"><i class="legend-line"></i>${item.dashTitle} · 00Z</span><span class="legend-item"><i class="legend-threshold"></i>${item.thresholdLabel}</span><span class="legend-item"><i class="season-chip" style="background:#dc4559"></i>ฤดูร้อน</span><span class="legend-item"><i class="season-chip" style="background:#e4bd36"></i>ฤดูฝน</span>`;
+      card.append(head,wrap,footer); return card;
+    }
+    try {
+      const payload=window.TAKHLI_00Z_DATA;
+      const data=payload.records;
+      if(!Array.isArray(data)||!data.length)throw new Error('empty');
+      document.getElementById('count').textContent=`${data.length} วัน`;
+      document.getElementById('end').textContent=dateFmt.format(new Date(dateValue(data.at(-1).date)));
+      document.getElementById('period').textContent=`${dateFmt.format(new Date(dateValue(data[0].date)))} – ${dateFmt.format(new Date(dateValue(data.at(-1).date)))}`;
+      const metrics=document.getElementById('metrics');
+      for(const item of series){const latest=data.at(-1);const card=document.createElement('article');card.className='metric-card';const name=document.createElement('div');name.className='metric-name';name.textContent=item.dashTitle;const value=document.createElement('div');value.className='metric-value';value.textContent=`${numberFmt(latest[item.key],item.precision)}${item.unit?` ${item.unit}`:''}`;const date=document.createElement('div');date.className='metric-date';date.textContent=`ค่าล่าสุด · ${dateFmt.format(new Date(dateValue(latest.date)))}`;card.append(name,value,date);metrics.append(card);}
+      const tabs=document.getElementById('tabs'),panel=document.getElementById('chart-panel');
+      const selectChart=index=>{tabs.querySelectorAll('[role="tab"]').forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1});panel.replaceChildren(renderChart(series[index],data));panel.setAttribute('aria-labelledby',`tab-${index}`);};
+      series.forEach((item,index)=>{const tab=document.createElement('button');tab.type='button';tab.className='plot-tab';tab.id=`tab-${index}`;tab.setAttribute('role','tab');tab.setAttribute('aria-selected',String(index===0));tab.setAttribute('aria-controls','chart-panel');tab.tabIndex=index===0?0:-1;tab.textContent=item.short;tab.addEventListener('click',()=>selectChart(index));tab.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const next=(index+(e.key==='ArrowRight'?1:-1)+series.length)%series.length;tabs.querySelectorAll('[role="tab"]')[next].focus();selectChart(next);}});tabs.append(tab)});
+      selectChart(0);
+    } catch { document.getElementById('error').style.display='block'; }
+  </script>
+</body>
+</html>
