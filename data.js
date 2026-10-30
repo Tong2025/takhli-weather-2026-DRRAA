@@ -8,7 +8,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.6,
       "kIndex": 16.7,
       "sweatIndex": 179,
-      "precipitableWaterTotalCm": 3.58
+      "precipitableWaterTotalCm": 3.58,
+      "meanWindDirection5000to10000FtDeg": 85.0,
+      "meanWindSpeed5000to10000FtMs": 1.5,
+      "meanRh1000to5000FtPct": 77.5,
+      "meanRh5000to10000FtPct": 48.9,
+      "meanRh10000to15000FtPct": 17.5,
+      "meanRh20000to25000FtPct": 6.0
     },
     {
       "date": "2026-04-02",
@@ -16,7 +22,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3.3,
       "kIndex": 10.7,
       "sweatIndex": 159.8,
-      "precipitableWaterTotalCm": 3.28
+      "precipitableWaterTotalCm": 3.28,
+      "meanWindDirection5000to10000FtDeg": 156.7,
+      "meanWindSpeed5000to10000FtMs": 1.5,
+      "meanRh1000to5000FtPct": 70.1,
+      "meanRh5000to10000FtPct": 55.9,
+      "meanRh10000to15000FtPct": 16.0,
+      "meanRh20000to25000FtPct": 5.8
     },
     {
       "date": "2026-04-03",
@@ -24,7 +36,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.5,
       "kIndex": 40.3,
       "sweatIndex": 200.8,
-      "precipitableWaterTotalCm": 4.02
+      "precipitableWaterTotalCm": 4.02,
+      "meanWindDirection5000to10000FtDeg": 252.8,
+      "meanWindSpeed5000to10000FtMs": 4.6,
+      "meanRh1000to5000FtPct": 72.8,
+      "meanRh5000to10000FtPct": 71.8,
+      "meanRh10000to15000FtPct": 57.0,
+      "meanRh20000to25000FtPct": 15.0
     },
     {
       "date": "2026-04-04",
@@ -32,7 +50,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3.6,
       "kIndex": 12.9,
       "sweatIndex": 131.2,
-      "precipitableWaterTotalCm": 3.34
+      "precipitableWaterTotalCm": 3.34,
+      "meanWindDirection5000to10000FtDeg": 235.0,
+      "meanWindSpeed5000to10000FtMs": 3.1,
+      "meanRh1000to5000FtPct": 61.2,
+      "meanRh5000to10000FtPct": 53.6,
+      "meanRh10000to15000FtPct": 30.8,
+      "meanRh20000to25000FtPct": 7.3
     },
     {
       "date": "2026-04-05",
@@ -40,7 +64,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 5.1,
       "kIndex": 8.5,
       "sweatIndex": 154.4,
-      "precipitableWaterTotalCm": 3
+      "precipitableWaterTotalCm": 3,
+      "meanWindDirection5000to10000FtDeg": 250.0,
+      "meanWindSpeed5000to10000FtMs": 1.0,
+      "meanRh1000to5000FtPct": 63.2,
+      "meanRh5000to10000FtPct": 28.4,
+      "meanRh10000to15000FtPct": 29.5,
+      "meanRh20000to25000FtPct": 8.5
     },
     {
       "date": "2026-04-06",
@@ -48,7 +78,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.8,
       "kIndex": 24.7,
       "sweatIndex": 179.2,
-      "precipitableWaterTotalCm": 3.38
+      "precipitableWaterTotalCm": 3.38,
+      "meanWindDirection5000to10000FtDeg": 198.3,
+      "meanWindSpeed5000to10000FtMs": 1.5,
+      "meanRh1000to5000FtPct": 69.4,
+      "meanRh5000to10000FtPct": 44.0,
+      "meanRh10000to15000FtPct": 33.5,
+      "meanRh20000to25000FtPct": 6.2
     },
     {
       "date": "2026-04-07",
@@ -56,7 +92,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3,
       "kIndex": 20.5,
       "sweatIndex": 207.4,
-      "precipitableWaterTotalCm": 3.19
+      "precipitableWaterTotalCm": 3.19,
+      "meanWindDirection5000to10000FtDeg": 233.0,
+      "meanWindSpeed5000to10000FtMs": 5.6,
+      "meanRh1000to5000FtPct": 67.5,
+      "meanRh5000to10000FtPct": 49.8,
+      "meanRh10000to15000FtPct": 29.3,
+      "meanRh20000to25000FtPct": 6.2
     },
     {
       "date": "2026-04-08",
@@ -64,7 +106,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.1,
       "kIndex": 11.5,
       "sweatIndex": 176,
-      "precipitableWaterTotalCm": 2.52
+      "precipitableWaterTotalCm": 2.52,
+      "meanWindDirection5000to10000FtDeg": 250.3,
+      "meanWindSpeed5000to10000FtMs": 4.0,
+      "meanRh1000to5000FtPct": 66.5,
+      "meanRh5000to10000FtPct": 34.5,
+      "meanRh10000to15000FtPct": 13.5,
+      "meanRh20000to25000FtPct": 5.8
     },
     {
       "date": "2026-04-09",
@@ -72,7 +120,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.5,
       "kIndex": 31.9,
       "sweatIndex": 240,
-      "precipitableWaterTotalCm": 3.45
+      "precipitableWaterTotalCm": 3.45,
+      "meanWindDirection5000to10000FtDeg": 200.7,
+      "meanWindSpeed5000to10000FtMs": 7.2,
+      "meanRh1000to5000FtPct": 74.2,
+      "meanRh5000to10000FtPct": 43.7,
+      "meanRh10000to15000FtPct": 38.2,
+      "meanRh20000to25000FtPct": 26.3
     },
     {
       "date": "2026-04-10",
@@ -80,7 +134,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.6,
       "kIndex": 14.9,
       "sweatIndex": 187.8,
-      "precipitableWaterTotalCm": 3.22
+      "precipitableWaterTotalCm": 3.22,
+      "meanWindDirection5000to10000FtDeg": 210.0,
+      "meanWindSpeed5000to10000FtMs": 2.1,
+      "meanRh1000to5000FtPct": 68.8,
+      "meanRh5000to10000FtPct": 38.7,
+      "meanRh10000to15000FtPct": 20.7,
+      "meanRh20000to25000FtPct": 20.7
     },
     {
       "date": "2026-04-11",
@@ -88,7 +148,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 6.4,
       "kIndex": 6.1,
       "sweatIndex": 98,
-      "precipitableWaterTotalCm": 2.53
+      "precipitableWaterTotalCm": 2.53,
+      "meanWindDirection5000to10000FtDeg": 247.9,
+      "meanWindSpeed5000to10000FtMs": 7.1,
+      "meanRh1000to5000FtPct": 54.2,
+      "meanRh5000to10000FtPct": 35.0,
+      "meanRh10000to15000FtPct": 18.0,
+      "meanRh20000to25000FtPct": 6.2
     },
     {
       "date": "2026-04-12",
@@ -96,7 +162,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 6.5,
       "kIndex": 2.9,
       "sweatIndex": 125.4,
-      "precipitableWaterTotalCm": 2.39
+      "precipitableWaterTotalCm": 2.39,
+      "meanWindDirection5000to10000FtDeg": 249.2,
+      "meanWindSpeed5000to10000FtMs": 3.9,
+      "meanRh1000to5000FtPct": 61.2,
+      "meanRh5000to10000FtPct": 17.1,
+      "meanRh10000to15000FtPct": 10.9,
+      "meanRh20000to25000FtPct": 6.3
     },
     {
       "date": "2026-04-13",
@@ -104,7 +176,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 5.9,
       "kIndex": 3.7,
       "sweatIndex": 111.4,
-      "precipitableWaterTotalCm": 2.56
+      "precipitableWaterTotalCm": 2.56,
+      "meanWindDirection5000to10000FtDeg": 173.1,
+      "meanWindSpeed5000to10000FtMs": 1.8,
+      "meanRh1000to5000FtPct": 58.6,
+      "meanRh5000to10000FtPct": 25.1,
+      "meanRh10000to15000FtPct": 11.2,
+      "meanRh20000to25000FtPct": 6.6
     },
     {
       "date": "2026-04-14",
@@ -112,7 +190,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.8,
       "kIndex": 5.5,
       "sweatIndex": 115.8,
-      "precipitableWaterTotalCm": 2.86
+      "precipitableWaterTotalCm": 2.86,
+      "meanWindDirection5000to10000FtDeg": 130.0,
+      "meanWindSpeed5000to10000FtMs": 2.1,
+      "meanRh1000to5000FtPct": 68.5,
+      "meanRh5000to10000FtPct": 37.3,
+      "meanRh10000to15000FtPct": 11.3,
+      "meanRh20000to25000FtPct": 6.1
     },
     {
       "date": "2026-04-15",
@@ -120,7 +204,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.8,
       "kIndex": 7.9,
       "sweatIndex": 184.6,
-      "precipitableWaterTotalCm": 2.73
+      "precipitableWaterTotalCm": 2.73,
+      "meanWindDirection5000to10000FtDeg": 155.0,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 69.0,
+      "meanRh5000to10000FtPct": 32.8,
+      "meanRh10000to15000FtPct": 10.2,
+      "meanRh20000to25000FtPct": 5.7
     },
     {
       "date": "2026-04-16",
@@ -128,7 +218,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.8,
       "kIndex": 11.9,
       "sweatIndex": 185.2,
-      "precipitableWaterTotalCm": 2.84
+      "precipitableWaterTotalCm": 2.84,
+      "meanWindDirection5000to10000FtDeg": 150.0,
+      "meanWindSpeed5000to10000FtMs": 4.6,
+      "meanRh1000to5000FtPct": 70.4,
+      "meanRh5000to10000FtPct": 38.2,
+      "meanRh10000to15000FtPct": 11.1,
+      "meanRh20000to25000FtPct": 6.6
     },
     {
       "date": "2026-04-17",
@@ -136,7 +232,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4,
       "kIndex": 14.5,
       "sweatIndex": 136.2,
-      "precipitableWaterTotalCm": 3.09
+      "precipitableWaterTotalCm": 3.09,
+      "meanWindDirection5000to10000FtDeg": 165.0,
+      "meanWindSpeed5000to10000FtMs": 1.0,
+      "meanRh1000to5000FtPct": 67.8,
+      "meanRh5000to10000FtPct": 38.3,
+      "meanRh10000to15000FtPct": 22.4,
+      "meanRh20000to25000FtPct": 6.6
     },
     {
       "date": "2026-04-18",
@@ -144,7 +246,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3.1,
       "kIndex": 31.7,
       "sweatIndex": 132.8,
-      "precipitableWaterTotalCm": 4.01
+      "precipitableWaterTotalCm": 4.01,
+      "meanWindDirection5000to10000FtDeg": 83.2,
+      "meanWindSpeed5000to10000FtMs": 0.6,
+      "meanRh1000to5000FtPct": 69.3,
+      "meanRh5000to10000FtPct": 51.6,
+      "meanRh10000to15000FtPct": 58.1,
+      "meanRh20000to25000FtPct": 7.9
     },
     {
       "date": "2026-04-19",
@@ -152,7 +260,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.5,
       "kIndex": 34.9,
       "sweatIndex": 182.2,
-      "precipitableWaterTotalCm": 4.6
+      "precipitableWaterTotalCm": 4.6,
+      "meanWindDirection5000to10000FtDeg": 205.0,
+      "meanWindSpeed5000to10000FtMs": 2.6,
+      "meanRh1000to5000FtPct": 65.7,
+      "meanRh5000to10000FtPct": 93.3,
+      "meanRh10000to15000FtPct": 62.5,
+      "meanRh20000to25000FtPct": 19.3
     },
     {
       "date": "2026-04-20",
@@ -160,7 +274,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 5.3,
       "kIndex": 29.4,
       "sweatIndex": 113.4,
-      "precipitableWaterTotalCm": 3.5
+      "precipitableWaterTotalCm": 3.5,
+      "meanWindDirection5000to10000FtDeg": 270.2,
+      "meanWindSpeed5000to10000FtMs": 5.4,
+      "meanRh1000to5000FtPct": 51.9,
+      "meanRh5000to10000FtPct": 82.7,
+      "meanRh10000to15000FtPct": 48.2,
+      "meanRh20000to25000FtPct": 8.1
     },
     {
       "date": "2026-04-21",
@@ -168,7 +288,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3.7,
       "kIndex": 21.9,
       "sweatIndex": 156,
-      "precipitableWaterTotalCm": 3.71
+      "precipitableWaterTotalCm": 3.71,
+      "meanWindDirection5000to10000FtDeg": 250.0,
+      "meanWindSpeed5000to10000FtMs": 0.5,
+      "meanRh1000to5000FtPct": 70.1,
+      "meanRh5000to10000FtPct": 55.5,
+      "meanRh10000to15000FtPct": 24.1,
+      "meanRh20000to25000FtPct": 11.2
     },
     {
       "date": "2026-04-22",
@@ -176,7 +302,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.6,
       "kIndex": 28.1,
       "sweatIndex": 205.8,
-      "precipitableWaterTotalCm": 4.3
+      "precipitableWaterTotalCm": 4.3,
+      "meanWindDirection5000to10000FtDeg": 215.0,
+      "meanWindSpeed5000to10000FtMs": 1.0,
+      "meanRh1000to5000FtPct": 80.9,
+      "meanRh5000to10000FtPct": 68.1,
+      "meanRh10000to15000FtPct": 30.0,
+      "meanRh20000to25000FtPct": 15.0
     },
     {
       "date": "2026-04-23",
@@ -184,7 +316,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.5,
       "kIndex": 31.4,
       "sweatIndex": 225.4,
-      "precipitableWaterTotalCm": 4.55
+      "precipitableWaterTotalCm": 4.55,
+      "meanWindDirection5000to10000FtDeg": 345.0,
+      "meanWindSpeed5000to10000FtMs": 0.5,
+      "meanRh1000to5000FtPct": 78.9,
+      "meanRh5000to10000FtPct": 57.9,
+      "meanRh10000to15000FtPct": 38.4,
+      "meanRh20000to25000FtPct": 17.7
     },
     {
       "date": "2026-04-24",
@@ -192,7 +330,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.1,
       "kIndex": 28.5,
       "sweatIndex": 225.6,
-      "precipitableWaterTotalCm": 4.72
+      "precipitableWaterTotalCm": 4.72,
+      "meanWindDirection5000to10000FtDeg": 213.3,
+      "meanWindSpeed5000to10000FtMs": 0.8,
+      "meanRh1000to5000FtPct": 81.1,
+      "meanRh5000to10000FtPct": 69.9,
+      "meanRh10000to15000FtPct": 30.3,
+      "meanRh20000to25000FtPct": 11.7
     },
     {
       "date": "2026-04-25",
@@ -200,7 +344,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -3.5,
       "kIndex": 38.3,
       "sweatIndex": 248.2,
-      "precipitableWaterTotalCm": 5.68
+      "precipitableWaterTotalCm": 5.68,
+      "meanWindDirection5000to10000FtDeg": 136.8,
+      "meanWindSpeed5000to10000FtMs": 2.2,
+      "meanRh1000to5000FtPct": 94.4,
+      "meanRh5000to10000FtPct": 95.4,
+      "meanRh10000to15000FtPct": 61.3,
+      "meanRh20000to25000FtPct": 26.7
     },
     {
       "date": "2026-04-26",
@@ -208,7 +358,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.6,
       "kIndex": 34.1,
       "sweatIndex": 227.8,
-      "precipitableWaterTotalCm": 5.03
+      "precipitableWaterTotalCm": 5.03,
+      "meanWindDirection5000to10000FtDeg": 180.0,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 83.5,
+      "meanRh5000to10000FtPct": 86.5,
+      "meanRh10000to15000FtPct": 71.6,
+      "meanRh20000to25000FtPct": 22.6
     },
     {
       "date": "2026-04-27",
@@ -216,7 +372,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 36.6,
       "sweatIndex": 242.4,
-      "precipitableWaterTotalCm": 4.6
+      "precipitableWaterTotalCm": 4.6,
+      "meanWindDirection5000to10000FtDeg": 50.0,
+      "meanWindSpeed5000to10000FtMs": 0.5,
+      "meanRh1000to5000FtPct": 84.7,
+      "meanRh5000to10000FtPct": 87.8,
+      "meanRh10000to15000FtPct": 43.3,
+      "meanRh20000to25000FtPct": 26.1
     },
     {
       "date": "2026-04-28",
@@ -224,7 +386,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1,
       "kIndex": 37.2,
       "sweatIndex": 201.6,
-      "precipitableWaterTotalCm": 4.04
+      "precipitableWaterTotalCm": 4.04,
+      "meanWindDirection5000to10000FtDeg": 230.0,
+      "meanWindSpeed5000to10000FtMs": 4.2,
+      "meanRh1000to5000FtPct": 72.9,
+      "meanRh5000to10000FtPct": 71.6,
+      "meanRh10000to15000FtPct": 49.7,
+      "meanRh20000to25000FtPct": 22.1
     },
     {
       "date": "2026-04-29",
@@ -232,7 +400,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1,
       "kIndex": 22.7,
       "sweatIndex": 197.2,
-      "precipitableWaterTotalCm": 4.09
+      "precipitableWaterTotalCm": 4.09,
+      "meanWindDirection5000to10000FtDeg": 280.0,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 73.9,
+      "meanRh5000to10000FtPct": 69.0,
+      "meanRh10000to15000FtPct": 36.2,
+      "meanRh20000to25000FtPct": 20.7
     },
     {
       "date": "2026-04-30",
@@ -240,7 +414,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.7,
       "kIndex": 37.5,
       "sweatIndex": 211.2,
-      "precipitableWaterTotalCm": 5.27
+      "precipitableWaterTotalCm": 5.27,
+      "meanWindDirection5000to10000FtDeg": 170.0,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 75.0,
+      "meanRh5000to10000FtPct": 96.5,
+      "meanRh10000to15000FtPct": 71.8,
+      "meanRh20000to25000FtPct": 37.6
     },
     {
       "date": "2026-05-01",
@@ -248,7 +428,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.1,
       "kIndex": 33.7,
       "sweatIndex": 228.4,
-      "precipitableWaterTotalCm": 4.71
+      "precipitableWaterTotalCm": 4.71,
+      "meanWindDirection5000to10000FtDeg": 180.0,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 80.8,
+      "meanRh5000to10000FtPct": 84.8,
+      "meanRh10000to15000FtPct": 51.7,
+      "meanRh20000to25000FtPct": 46.0
     },
     {
       "date": "2026-05-02",
@@ -256,7 +442,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.9,
       "kIndex": 37.7,
       "sweatIndex": 223.4,
-      "precipitableWaterTotalCm": 5.1
+      "precipitableWaterTotalCm": 5.1,
+      "meanWindDirection5000to10000FtDeg": 213.5,
+      "meanWindSpeed5000to10000FtMs": 4.4,
+      "meanRh1000to5000FtPct": 78.0,
+      "meanRh5000to10000FtPct": 82.3,
+      "meanRh10000to15000FtPct": 65.9,
+      "meanRh20000to25000FtPct": 42.6
     },
     {
       "date": "2026-05-03",
@@ -264,7 +456,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.9,
       "kIndex": 40.2,
       "sweatIndex": 240.2,
-      "precipitableWaterTotalCm": 4.88
+      "precipitableWaterTotalCm": 4.88,
+      "meanWindDirection5000to10000FtDeg": 249.2,
+      "meanWindSpeed5000to10000FtMs": 2.4,
+      "meanRh1000to5000FtPct": 71.7,
+      "meanRh5000to10000FtPct": 82.6,
+      "meanRh10000to15000FtPct": 80.4,
+      "meanRh20000to25000FtPct": 29.6
     },
     {
       "date": "2026-05-04",
@@ -272,7 +470,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.5,
       "kIndex": 34.1,
       "sweatIndex": 216.2,
-      "precipitableWaterTotalCm": 5.14
+      "precipitableWaterTotalCm": 5.14,
+      "meanWindDirection5000to10000FtDeg": 65.0,
+      "meanWindSpeed5000to10000FtMs": 3.1,
+      "meanRh1000to5000FtPct": 77.9,
+      "meanRh5000to10000FtPct": 73.6,
+      "meanRh10000to15000FtPct": 63.0,
+      "meanRh20000to25000FtPct": 43.1
     },
     {
       "date": "2026-05-05",
@@ -280,7 +484,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 38.2,
       "sweatIndex": 200.6,
-      "precipitableWaterTotalCm": 5.14
+      "precipitableWaterTotalCm": 5.14,
+      "meanWindDirection5000to10000FtDeg": 85.0,
+      "meanWindSpeed5000to10000FtMs": 4.1,
+      "meanRh1000to5000FtPct": 75.0,
+      "meanRh5000to10000FtPct": 74.9,
+      "meanRh10000to15000FtPct": 89.8,
+      "meanRh20000to25000FtPct": 47.5
     },
     {
       "date": "2026-05-06",
@@ -288,7 +498,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.6,
       "kIndex": 37,
       "sweatIndex": 192.4,
-      "precipitableWaterTotalCm": 5.23
+      "precipitableWaterTotalCm": 5.23,
+      "meanWindDirection5000to10000FtDeg": 55.0,
+      "meanWindSpeed5000to10000FtMs": 2.1,
+      "meanRh1000to5000FtPct": 82.3,
+      "meanRh5000to10000FtPct": 67.5,
+      "meanRh10000to15000FtPct": 72.7,
+      "meanRh20000to25000FtPct": 46.2
     },
     {
       "date": "2026-05-07",
@@ -296,7 +512,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.4,
       "kIndex": 37,
       "sweatIndex": 212.6,
-      "precipitableWaterTotalCm": 5.58
+      "precipitableWaterTotalCm": 5.58,
+      "meanWindDirection5000to10000FtDeg": 30.0,
+      "meanWindSpeed5000to10000FtMs": 1.5,
+      "meanRh1000to5000FtPct": 78.9,
+      "meanRh5000to10000FtPct": 90.8,
+      "meanRh10000to15000FtPct": 72.7,
+      "meanRh20000to25000FtPct": 45.1
     },
     {
       "date": "2026-05-08",
@@ -304,7 +526,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.2,
       "kIndex": 40.7,
       "sweatIndex": 217.2,
-      "precipitableWaterTotalCm": 5.8
+      "precipitableWaterTotalCm": 5.8,
+      "meanWindDirection5000to10000FtDeg": 85.0,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 82.4,
+      "meanRh5000to10000FtPct": 86.3,
+      "meanRh10000to15000FtPct": 79.0,
+      "meanRh20000to25000FtPct": 78.4
     },
     {
       "date": "2026-05-09",
@@ -312,7 +540,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.3,
       "kIndex": 36.1,
       "sweatIndex": 212,
-      "precipitableWaterTotalCm": 5.71
+      "precipitableWaterTotalCm": 5.71,
+      "meanWindDirection5000to10000FtDeg": 137.7,
+      "meanWindSpeed5000to10000FtMs": 7.2,
+      "meanRh1000to5000FtPct": 81.7,
+      "meanRh5000to10000FtPct": 71.9,
+      "meanRh10000to15000FtPct": 93.7,
+      "meanRh20000to25000FtPct": 93.1
     },
     {
       "date": "2026-05-10",
@@ -320,7 +554,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.1,
       "kIndex": 39.3,
       "sweatIndex": 262.4,
-      "precipitableWaterTotalCm": 5.64
+      "precipitableWaterTotalCm": 5.64,
+      "meanWindDirection5000to10000FtDeg": 130.0,
+      "meanWindSpeed5000to10000FtMs": 8.2,
+      "meanRh1000to5000FtPct": 85.3,
+      "meanRh5000to10000FtPct": 65.9,
+      "meanRh10000to15000FtPct": 77.9,
+      "meanRh20000to25000FtPct": 57.9
     },
     {
       "date": "2026-05-11",
@@ -328,7 +568,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.9,
       "kIndex": 35.6,
       "sweatIndex": 251.4,
-      "precipitableWaterTotalCm": 6.19
+      "precipitableWaterTotalCm": 6.19,
+      "meanWindDirection5000to10000FtDeg": 141.5,
+      "meanWindSpeed5000to10000FtMs": 5.9,
+      "meanRh1000to5000FtPct": 95.3,
+      "meanRh5000to10000FtPct": 94.0,
+      "meanRh10000to15000FtPct": 73.2,
+      "meanRh20000to25000FtPct": 60.3
     },
     {
       "date": "2026-05-12",
@@ -336,7 +582,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.3,
       "kIndex": 40,
       "sweatIndex": 231.2,
-      "precipitableWaterTotalCm": 6
+      "precipitableWaterTotalCm": 6,
+      "meanWindDirection5000to10000FtDeg": 145.0,
+      "meanWindSpeed5000to10000FtMs": 4.8,
+      "meanRh1000to5000FtPct": 80.3,
+      "meanRh5000to10000FtPct": 99.7,
+      "meanRh10000to15000FtPct": 87.9,
+      "meanRh20000to25000FtPct": 62.8
     },
     {
       "date": "2026-05-13",
@@ -344,7 +596,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.9,
       "kIndex": 35.7,
       "sweatIndex": 224.6,
-      "precipitableWaterTotalCm": 5.63
+      "precipitableWaterTotalCm": 5.63,
+      "meanWindDirection5000to10000FtDeg": 183.3,
+      "meanWindSpeed5000to10000FtMs": 6.9,
+      "meanRh1000to5000FtPct": 79.2,
+      "meanRh5000to10000FtPct": 87.2,
+      "meanRh10000to15000FtPct": 85.1,
+      "meanRh20000to25000FtPct": 84.5
     },
     {
       "date": "2026-05-14",
@@ -352,7 +610,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.3,
       "kIndex": 37.4,
       "sweatIndex": 242.2,
-      "precipitableWaterTotalCm": 6.33
+      "precipitableWaterTotalCm": 6.33,
+      "meanWindDirection5000to10000FtDeg": 257.5,
+      "meanWindSpeed5000to10000FtMs": 8.5,
+      "meanRh1000to5000FtPct": 88.0,
+      "meanRh5000to10000FtPct": 76.3,
+      "meanRh10000to15000FtPct": 92.6,
+      "meanRh20000to25000FtPct": 70.8
     },
     {
       "date": "2026-05-15",
@@ -360,7 +624,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.7,
       "kIndex": 34.5,
       "sweatIndex": 209.6,
-      "precipitableWaterTotalCm": 5.75
+      "precipitableWaterTotalCm": 5.75,
+      "meanWindDirection5000to10000FtDeg": 245.0,
+      "meanWindSpeed5000to10000FtMs": 4.6,
+      "meanRh1000to5000FtPct": 75.4,
+      "meanRh5000to10000FtPct": 75.3,
+      "meanRh10000to15000FtPct": 73.9,
+      "meanRh20000to25000FtPct": 88.3
     },
     {
       "date": "2026-05-17",
@@ -368,7 +638,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.7,
       "kIndex": 36.1,
       "sweatIndex": 214.2,
-      "precipitableWaterTotalCm": 6.15
+      "precipitableWaterTotalCm": 6.15,
+      "meanWindDirection5000to10000FtDeg": 250.0,
+      "meanWindSpeed5000to10000FtMs": 3.1,
+      "meanRh1000to5000FtPct": 84.5,
+      "meanRh5000to10000FtPct": 74.2,
+      "meanRh10000to15000FtPct": 85.3,
+      "meanRh20000to25000FtPct": 81.2
     },
     {
       "date": "2026-05-18",
@@ -376,7 +652,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.3,
       "kIndex": 38.4,
       "sweatIndex": 227.2,
-      "precipitableWaterTotalCm": 6.46
+      "precipitableWaterTotalCm": 6.46,
+      "meanWindDirection5000to10000FtDeg": 175.0,
+      "meanWindSpeed5000to10000FtMs": 2.6,
+      "meanRh1000to5000FtPct": 83.0,
+      "meanRh5000to10000FtPct": 93.8,
+      "meanRh10000to15000FtPct": 95.5,
+      "meanRh20000to25000FtPct": 64.9
     },
     {
       "date": "2026-05-19",
@@ -384,7 +666,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.4,
       "kIndex": 39.4,
       "sweatIndex": 234,
-      "precipitableWaterTotalCm": 6.72
+      "precipitableWaterTotalCm": 6.72,
+      "meanWindDirection5000to10000FtDeg": 45.0,
+      "meanWindSpeed5000to10000FtMs": 0.5,
+      "meanRh1000to5000FtPct": 94.8,
+      "meanRh5000to10000FtPct": 99.4,
+      "meanRh10000to15000FtPct": 92.7,
+      "meanRh20000to25000FtPct": 88.4
     },
     {
       "date": "2026-05-20",
@@ -392,7 +680,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.5,
       "kIndex": 40.9,
       "sweatIndex": 247.6,
-      "precipitableWaterTotalCm": 6.79
+      "precipitableWaterTotalCm": 6.79,
+      "meanWindDirection5000to10000FtDeg": 270.0,
+      "meanWindSpeed5000to10000FtMs": 1.5,
+      "meanRh1000to5000FtPct": 99.8,
+      "meanRh5000to10000FtPct": 100.0,
+      "meanRh10000to15000FtPct": 89.5,
+      "meanRh20000to25000FtPct": 87.9
     },
     {
       "date": "2026-05-21",
@@ -400,7 +694,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 37.9,
       "sweatIndex": 236,
-      "precipitableWaterTotalCm": 6.28
+      "precipitableWaterTotalCm": 6.28,
+      "meanWindDirection5000to10000FtDeg": 285.0,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 82.7,
+      "meanRh5000to10000FtPct": 94.3,
+      "meanRh10000to15000FtPct": 87.5,
+      "meanRh20000to25000FtPct": 59.1
     },
     {
       "date": "2026-05-22",
@@ -408,7 +708,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.5,
       "kIndex": 36.3,
       "sweatIndex": 239,
-      "precipitableWaterTotalCm": 6.39
+      "precipitableWaterTotalCm": 6.39,
+      "meanWindDirection5000to10000FtDeg": 197.4,
+      "meanWindSpeed5000to10000FtMs": 5.4,
+      "meanRh1000to5000FtPct": 94.4,
+      "meanRh5000to10000FtPct": 73.0,
+      "meanRh10000to15000FtPct": 78.8,
+      "meanRh20000to25000FtPct": 80.1
     },
     {
       "date": "2026-05-23",
@@ -416,7 +722,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0,
       "kIndex": 35.5,
       "sweatIndex": 211.6,
-      "precipitableWaterTotalCm": 6.09
+      "precipitableWaterTotalCm": 6.09,
+      "meanWindDirection5000to10000FtDeg": 225.0,
+      "meanWindSpeed5000to10000FtMs": 4.6,
+      "meanRh1000to5000FtPct": 81.8,
+      "meanRh5000to10000FtPct": 89.5,
+      "meanRh10000to15000FtPct": 69.6,
+      "meanRh20000to25000FtPct": 82.8
     },
     {
       "date": "2026-05-24",
@@ -424,7 +736,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.8,
       "kIndex": 36.3,
       "sweatIndex": 233.2,
-      "precipitableWaterTotalCm": 5.46
+      "precipitableWaterTotalCm": 5.46,
+      "meanWindDirection5000to10000FtDeg": 228.6,
+      "meanWindSpeed5000to10000FtMs": 8.4,
+      "meanRh1000to5000FtPct": 88.4,
+      "meanRh5000to10000FtPct": 69.4,
+      "meanRh10000to15000FtPct": 61.5,
+      "meanRh20000to25000FtPct": 46.9
     },
     {
       "date": "2026-05-25",
@@ -432,7 +750,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 34.7,
       "sweatIndex": 219.6,
-      "precipitableWaterTotalCm": 4.3
+      "precipitableWaterTotalCm": 4.3,
+      "meanWindDirection5000to10000FtDeg": 239.8,
+      "meanWindSpeed5000to10000FtMs": 7.4,
+      "meanRh1000to5000FtPct": 80.2,
+      "meanRh5000to10000FtPct": 66.5,
+      "meanRh10000to15000FtPct": 71.1,
+      "meanRh20000to25000FtPct": 40.4
     },
     {
       "date": "2026-05-26",
@@ -440,7 +764,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.1,
       "kIndex": 34.5,
       "sweatIndex": 213.4,
-      "precipitableWaterTotalCm": 5.21
+      "precipitableWaterTotalCm": 5.21,
+      "meanWindDirection5000to10000FtDeg": 250.6,
+      "meanWindSpeed5000to10000FtMs": 7.1,
+      "meanRh1000to5000FtPct": 81.5,
+      "meanRh5000to10000FtPct": 63.1,
+      "meanRh10000to15000FtPct": 66.3,
+      "meanRh20000to25000FtPct": 56.1
     },
     {
       "date": "2026-05-27",
@@ -448,7 +778,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.2,
       "kIndex": 34.5,
       "sweatIndex": 216.2,
-      "precipitableWaterTotalCm": 5.39
+      "precipitableWaterTotalCm": 5.39,
+      "meanWindDirection5000to10000FtDeg": 230.0,
+      "meanWindSpeed5000to10000FtMs": 4.4,
+      "meanRh1000to5000FtPct": 80.6,
+      "meanRh5000to10000FtPct": 83.8,
+      "meanRh10000to15000FtPct": 63.4,
+      "meanRh20000to25000FtPct": 66.8
     },
     {
       "date": "2026-05-28",
@@ -456,7 +792,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.5,
       "kIndex": 32.9,
       "sweatIndex": 211.6,
-      "precipitableWaterTotalCm": 5.5
+      "precipitableWaterTotalCm": 5.5,
+      "meanWindDirection5000to10000FtDeg": 222.8,
+      "meanWindSpeed5000to10000FtMs": 7.3,
+      "meanRh1000to5000FtPct": 80.1,
+      "meanRh5000to10000FtPct": 77.5,
+      "meanRh10000to15000FtPct": 62.2,
+      "meanRh20000to25000FtPct": 51.7
     },
     {
       "date": "2026-05-29",
@@ -464,7 +806,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.2,
       "kIndex": 37.9,
       "sweatIndex": 229.8,
-      "precipitableWaterTotalCm": 5.7
+      "precipitableWaterTotalCm": 5.7,
+      "meanWindDirection5000to10000FtDeg": 210.0,
+      "meanWindSpeed5000to10000FtMs": 5.7,
+      "meanRh1000to5000FtPct": 81.8,
+      "meanRh5000to10000FtPct": 74.3,
+      "meanRh10000to15000FtPct": 75.7,
+      "meanRh20000to25000FtPct": 39.2
     },
     {
       "date": "2026-05-30",
@@ -472,7 +820,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.1,
       "kIndex": 35.4,
       "sweatIndex": 206.4,
-      "precipitableWaterTotalCm": 5.74
+      "precipitableWaterTotalCm": 5.74,
+      "meanWindDirection5000to10000FtDeg": 167.6,
+      "meanWindSpeed5000to10000FtMs": 4.9,
+      "meanRh1000to5000FtPct": 82.5,
+      "meanRh5000to10000FtPct": 67.4,
+      "meanRh10000to15000FtPct": 64.5,
+      "meanRh20000to25000FtPct": 91.9
     },
     {
       "date": "2026-07-16",
@@ -480,7 +834,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.1,
       "kIndex": 36.7,
       "sweatIndex": 230.4,
-      "precipitableWaterTotalCm": 6.03
+      "precipitableWaterTotalCm": 6.03,
+      "meanWindDirection5000to10000FtDeg": 262.3,
+      "meanWindSpeed5000to10000FtMs": 10.8,
+      "meanRh1000to5000FtPct": 84.9,
+      "meanRh5000to10000FtPct": 87.3,
+      "meanRh10000to15000FtPct": 88.1,
+      "meanRh20000to25000FtPct": 84.2
     },
     {
       "date": "2026-07-17",
@@ -488,7 +848,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.9,
       "kIndex": 35,
       "sweatIndex": 230.8,
-      "precipitableWaterTotalCm": 5.57
+      "precipitableWaterTotalCm": 5.57,
+      "meanWindDirection5000to10000FtDeg": 276.0,
+      "meanWindSpeed5000to10000FtMs": 9.4,
+      "meanRh1000to5000FtPct": 82.8,
+      "meanRh5000to10000FtPct": 83.6,
+      "meanRh10000to15000FtPct": 64.8,
+      "meanRh20000to25000FtPct": 95.6
     },
     {
       "date": "2026-07-18",
@@ -496,7 +862,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2,
       "kIndex": 23.2,
       "sweatIndex": 229.6,
-      "precipitableWaterTotalCm": 4.26
+      "precipitableWaterTotalCm": 4.26,
+      "meanWindDirection5000to10000FtDeg": 357.2,
+      "meanWindSpeed5000to10000FtMs": 20.1,
+      "meanRh1000to5000FtPct": 76.9,
+      "meanRh5000to10000FtPct": 51.1,
+      "meanRh10000to15000FtPct": 54.1,
+      "meanRh20000to25000FtPct": 99.5
     },
     {
       "date": "2026-07-19",
@@ -504,7 +876,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 6.4,
       "kIndex": 25.7,
       "sweatIndex": 148,
-      "precipitableWaterTotalCm": 3.71
+      "precipitableWaterTotalCm": 3.71,
+      "meanWindDirection5000to10000FtDeg": 289.8,
+      "meanWindSpeed5000to10000FtMs": 6.4,
+      "meanRh1000to5000FtPct": 61.6,
+      "meanRh5000to10000FtPct": 71.5,
+      "meanRh10000to15000FtPct": 40.5,
+      "meanRh20000to25000FtPct": 58.1
     },
     {
       "date": "2026-07-20",
@@ -512,7 +890,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 9.1,
       "kIndex": 7.7,
       "sweatIndex": 124,
-      "precipitableWaterTotalCm": 3.1
+      "precipitableWaterTotalCm": 3.1,
+      "meanWindDirection5000to10000FtDeg": 265.0,
+      "meanWindSpeed5000to10000FtMs": 6.2,
+      "meanRh1000to5000FtPct": 58.1,
+      "meanRh5000to10000FtPct": 51.7,
+      "meanRh10000to15000FtPct": 16.9,
+      "meanRh20000to25000FtPct": 53.1
     },
     {
       "date": "2026-07-21",
@@ -520,7 +904,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.2,
       "kIndex": 38.5,
       "sweatIndex": 218.6,
-      "precipitableWaterTotalCm": 5.58
+      "precipitableWaterTotalCm": 5.58,
+      "meanWindDirection5000to10000FtDeg": 257.1,
+      "meanWindSpeed5000to10000FtMs": 9.2,
+      "meanRh1000to5000FtPct": 70.2,
+      "meanRh5000to10000FtPct": 96.8,
+      "meanRh10000to15000FtPct": 86.7,
+      "meanRh20000to25000FtPct": 75.9
     },
     {
       "date": "2026-07-22",
@@ -528,7 +918,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 34.8,
       "sweatIndex": 226.2,
-      "precipitableWaterTotalCm": 5.98
+      "precipitableWaterTotalCm": 5.98,
+      "meanWindDirection5000to10000FtDeg": 280.0,
+      "meanWindSpeed5000to10000FtMs": 8.2,
+      "meanRh1000to5000FtPct": 78.5,
+      "meanRh5000to10000FtPct": 93.4,
+      "meanRh10000to15000FtPct": 76.1,
+      "meanRh20000to25000FtPct": 85.7
     },
     {
       "date": "2026-07-23",
@@ -536,7 +932,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.3,
       "kIndex": 31.2,
       "sweatIndex": 224.2,
-      "precipitableWaterTotalCm": 5.25
+      "precipitableWaterTotalCm": 5.25,
+      "meanWindDirection5000to10000FtDeg": 315.0,
+      "meanWindSpeed5000to10000FtMs": 12.9,
+      "meanRh1000to5000FtPct": 85.5,
+      "meanRh5000to10000FtPct": 56.9,
+      "meanRh10000to15000FtPct": 76.6,
+      "meanRh20000to25000FtPct": 46.9
     },
     {
       "date": "2026-07-24",
@@ -544,7 +946,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.7,
       "kIndex": 34.6,
       "sweatIndex": 221.2,
-      "precipitableWaterTotalCm": 5.47
+      "precipitableWaterTotalCm": 5.47,
+      "meanWindDirection5000to10000FtDeg": 310.0,
+      "meanWindSpeed5000to10000FtMs": 13.1,
+      "meanRh1000to5000FtPct": 78.0,
+      "meanRh5000to10000FtPct": 73.7,
+      "meanRh10000to15000FtPct": 77.2,
+      "meanRh20000to25000FtPct": 68.6
     },
     {
       "date": "2026-07-25",
@@ -552,7 +960,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.7,
       "kIndex": 36.1,
       "sweatIndex": 210,
-      "precipitableWaterTotalCm": 5.56
+      "precipitableWaterTotalCm": 5.56,
+      "meanWindDirection5000to10000FtDeg": 330.0,
+      "meanWindSpeed5000to10000FtMs": 2.6,
+      "meanRh1000to5000FtPct": 77.3,
+      "meanRh5000to10000FtPct": 88.3,
+      "meanRh10000to15000FtPct": 87.5,
+      "meanRh20000to25000FtPct": 45.2
     },
     {
       "date": "2026-07-26",
@@ -560,7 +974,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.8,
       "kIndex": 36.5,
       "sweatIndex": 232.2,
-      "precipitableWaterTotalCm": 6.01
+      "precipitableWaterTotalCm": 6.01,
+      "meanWindDirection5000to10000FtDeg": 280.0,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 83.1,
+      "meanRh5000to10000FtPct": 98.4,
+      "meanRh10000to15000FtPct": 94.4,
+      "meanRh20000to25000FtPct": 73.2
     },
     {
       "date": "2026-07-27",
@@ -568,7 +988,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.5,
       "kIndex": 34.6,
       "sweatIndex": 238.6,
-      "precipitableWaterTotalCm": 6.09
+      "precipitableWaterTotalCm": 6.09,
+      "meanWindDirection5000to10000FtDeg": 287.2,
+      "meanWindSpeed5000to10000FtMs": 6.8,
+      "meanRh1000to5000FtPct": 82.5,
+      "meanRh5000to10000FtPct": 84.6,
+      "meanRh10000to15000FtPct": 81.8,
+      "meanRh20000to25000FtPct": 76.5
     },
     {
       "date": "2026-07-28",
@@ -576,7 +1002,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.1,
       "kIndex": 37.8,
       "sweatIndex": 241.8,
-      "precipitableWaterTotalCm": 6.05
+      "precipitableWaterTotalCm": 6.05,
+      "meanWindDirection5000to10000FtDeg": 302.4,
+      "meanWindSpeed5000to10000FtMs": 6.9,
+      "meanRh1000to5000FtPct": 82.9,
+      "meanRh5000to10000FtPct": 83.8,
+      "meanRh10000to15000FtPct": 97.3,
+      "meanRh20000to25000FtPct": 76.0
     },
     {
       "date": "2026-07-29",
@@ -584,7 +1016,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.1,
       "kIndex": 36.4,
       "sweatIndex": 255.4,
-      "precipitableWaterTotalCm": 6.02
+      "precipitableWaterTotalCm": 6.02,
+      "meanWindDirection5000to10000FtDeg": 302.0,
+      "meanWindSpeed5000to10000FtMs": 7.5,
+      "meanRh1000to5000FtPct": 78.6,
+      "meanRh5000to10000FtPct": 83.4,
+      "meanRh10000to15000FtPct": 91.6,
+      "meanRh20000to25000FtPct": 89.2
     },
     {
       "date": "2026-07-30",
@@ -592,7 +1030,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 38.4,
       "sweatIndex": 223.6,
-      "precipitableWaterTotalCm": 6.41
+      "precipitableWaterTotalCm": 6.41,
+      "meanWindDirection5000to10000FtDeg": 315.4,
+      "meanWindSpeed5000to10000FtMs": 6.0,
+      "meanRh1000to5000FtPct": 89.2,
+      "meanRh5000to10000FtPct": 92.6,
+      "meanRh10000to15000FtPct": 93.8,
+      "meanRh20000to25000FtPct": 94.2
     },
     {
       "date": "2026-07-31",
@@ -600,7 +1044,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.2,
       "kIndex": 37.8,
       "sweatIndex": 236,
-      "precipitableWaterTotalCm": 6.3
+      "precipitableWaterTotalCm": 6.3,
+      "meanWindDirection5000to10000FtDeg": 300.0,
+      "meanWindSpeed5000to10000FtMs": 4.1,
+      "meanRh1000to5000FtPct": 90.5,
+      "meanRh5000to10000FtPct": 98.7,
+      "meanRh10000to15000FtPct": 88.9,
+      "meanRh20000to25000FtPct": 83.9
     },
     {
       "date": "2026-08-01",
@@ -608,7 +1058,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.4,
       "kIndex": 37.9,
       "sweatIndex": 231.2,
-      "precipitableWaterTotalCm": 6.32
+      "precipitableWaterTotalCm": 6.32,
+      "meanWindDirection5000to10000FtDeg": 260.0,
+      "meanWindSpeed5000to10000FtMs": 5.0,
+      "meanRh1000to5000FtPct": 87.8,
+      "meanRh5000to10000FtPct": 98.7,
+      "meanRh10000to15000FtPct": 90.7,
+      "meanRh20000to25000FtPct": 92.9
     },
     {
       "date": "2026-08-02",
@@ -616,7 +1072,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.7,
       "kIndex": 36.4,
       "sweatIndex": 230.2,
-      "precipitableWaterTotalCm": 6.07
+      "precipitableWaterTotalCm": 6.07,
+      "meanWindDirection5000to10000FtDeg": 250.3,
+      "meanWindSpeed5000to10000FtMs": 6.8,
+      "meanRh1000to5000FtPct": 88.2,
+      "meanRh5000to10000FtPct": 83.1,
+      "meanRh10000to15000FtPct": 82.1,
+      "meanRh20000to25000FtPct": 96.0
     },
     {
       "date": "2026-08-03",
@@ -624,7 +1086,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 37.2,
       "sweatIndex": 249.6,
-      "precipitableWaterTotalCm": 5.97
+      "precipitableWaterTotalCm": 5.97,
+      "meanWindDirection5000to10000FtDeg": 255.0,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 84.1,
+      "meanRh5000to10000FtPct": 90.0,
+      "meanRh10000to15000FtPct": 78.8,
+      "meanRh20000to25000FtPct": 79.7
     },
     {
       "date": "2026-08-04",
@@ -632,7 +1100,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.1,
       "kIndex": 38.2,
       "sweatIndex": 248.8,
-      "precipitableWaterTotalCm": 6.12
+      "precipitableWaterTotalCm": 6.12,
+      "meanWindDirection5000to10000FtDeg": 247.6,
+      "meanWindSpeed5000to10000FtMs": 9.3,
+      "meanRh1000to5000FtPct": 77.6,
+      "meanRh5000to10000FtPct": 93.0,
+      "meanRh10000to15000FtPct": 88.1,
+      "meanRh20000to25000FtPct": 90.6
     },
     {
       "date": "2026-08-05",
@@ -640,7 +1114,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.9,
       "kIndex": 36.9,
       "sweatIndex": 258.4,
-      "precipitableWaterTotalCm": 6.19
+      "precipitableWaterTotalCm": 6.19,
+      "meanWindDirection5000to10000FtDeg": 232.4,
+      "meanWindSpeed5000to10000FtMs": 9.0,
+      "meanRh1000to5000FtPct": 88.6,
+      "meanRh5000to10000FtPct": 88.4,
+      "meanRh10000to15000FtPct": 84.5,
+      "meanRh20000to25000FtPct": 92.8
     },
     {
       "date": "2026-08-06",
@@ -648,7 +1128,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.3,
       "kIndex": 37.7,
       "sweatIndex": 240.8,
-      "precipitableWaterTotalCm": 6.36
+      "precipitableWaterTotalCm": 6.36,
+      "meanWindDirection5000to10000FtDeg": 248.2,
+      "meanWindSpeed5000to10000FtMs": 7.7,
+      "meanRh1000to5000FtPct": 87.5,
+      "meanRh5000to10000FtPct": 96.0,
+      "meanRh10000to15000FtPct": 81.5,
+      "meanRh20000to25000FtPct": 87.7
     },
     {
       "date": "2026-08-07",
@@ -656,7 +1142,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.5,
       "kIndex": 39.1,
       "sweatIndex": 244.8,
-      "precipitableWaterTotalCm": 6.4
+      "precipitableWaterTotalCm": 6.4,
+      "meanWindDirection5000to10000FtDeg": 255.0,
+      "meanWindSpeed5000to10000FtMs": 9.8,
+      "meanRh1000to5000FtPct": 90.3,
+      "meanRh5000to10000FtPct": 93.7,
+      "meanRh10000to15000FtPct": 88.0,
+      "meanRh20000to25000FtPct": 93.9
     },
     {
       "date": "2026-08-08",
@@ -664,7 +1156,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.4,
       "kIndex": 39.8,
       "sweatIndex": 280.4,
-      "precipitableWaterTotalCm": 6.5
+      "precipitableWaterTotalCm": 6.5,
+      "meanWindDirection5000to10000FtDeg": 260.0,
+      "meanWindSpeed5000to10000FtMs": 9.8,
+      "meanRh1000to5000FtPct": 89.8,
+      "meanRh5000to10000FtPct": 100.0,
+      "meanRh10000to15000FtPct": 90.9,
+      "meanRh20000to25000FtPct": 94.2
     },
     {
       "date": "2026-08-09",
@@ -672,7 +1170,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.7,
       "kIndex": 35.4,
       "sweatIndex": 274.8,
-      "precipitableWaterTotalCm": 6.34
+      "precipitableWaterTotalCm": 6.34,
+      "meanWindDirection5000to10000FtDeg": 267.3,
+      "meanWindSpeed5000to10000FtMs": 11.8,
+      "meanRh1000to5000FtPct": 92.4,
+      "meanRh5000to10000FtPct": 89.7,
+      "meanRh10000to15000FtPct": 82.5,
+      "meanRh20000to25000FtPct": 100.0
     },
     {
       "date": "2026-08-10",
@@ -680,7 +1184,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.8,
       "kIndex": 37.6,
       "sweatIndex": 253,
-      "precipitableWaterTotalCm": 6.12
+      "precipitableWaterTotalCm": 6.12,
+      "meanWindDirection5000to10000FtDeg": 263.4,
+      "meanWindSpeed5000to10000FtMs": 7.6,
+      "meanRh1000to5000FtPct": 89.4,
+      "meanRh5000to10000FtPct": 76.8,
+      "meanRh10000to15000FtPct": 77.7,
+      "meanRh20000to25000FtPct": 74.3
     },
     {
       "date": "2026-08-11",
@@ -688,7 +1198,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.7,
       "kIndex": 36.3,
       "sweatIndex": 253.6,
-      "precipitableWaterTotalCm": 6.09
+      "precipitableWaterTotalCm": 6.09,
+      "meanWindDirection5000to10000FtDeg": 270.0,
+      "meanWindSpeed5000to10000FtMs": 14.2,
+      "meanRh1000to5000FtPct": 78.7,
+      "meanRh5000to10000FtPct": 94.7,
+      "meanRh10000to15000FtPct": 81.1,
+      "meanRh20000to25000FtPct": 86.0
     },
     {
       "date": "2026-08-12",
@@ -696,7 +1212,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0,
       "kIndex": 39.4,
       "sweatIndex": 262.2,
-      "precipitableWaterTotalCm": 6.11
+      "precipitableWaterTotalCm": 6.11,
+      "meanWindDirection5000to10000FtDeg": 275.0,
+      "meanWindSpeed5000to10000FtMs": 15.2,
+      "meanRh1000to5000FtPct": 81.7,
+      "meanRh5000to10000FtPct": 97.5,
+      "meanRh10000to15000FtPct": 85.2,
+      "meanRh20000to25000FtPct": 85.1
     },
     {
       "date": "2026-08-13",
@@ -704,7 +1226,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 37.5,
       "sweatIndex": 260.2,
-      "precipitableWaterTotalCm": 6.27
+      "precipitableWaterTotalCm": 6.27,
+      "meanWindDirection5000to10000FtDeg": 279.0,
+      "meanWindSpeed5000to10000FtMs": 16.2,
+      "meanRh1000to5000FtPct": 86.0,
+      "meanRh5000to10000FtPct": 86.1,
+      "meanRh10000to15000FtPct": 91.6,
+      "meanRh20000to25000FtPct": 86.5
     },
     {
       "date": "2026-08-14",
@@ -712,7 +1240,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 36.7,
       "sweatIndex": 245.4,
-      "precipitableWaterTotalCm": 6.03
+      "precipitableWaterTotalCm": 6.03,
+      "meanWindDirection5000to10000FtDeg": 300.6,
+      "meanWindSpeed5000to10000FtMs": 8.2,
+      "meanRh1000to5000FtPct": 84.2,
+      "meanRh5000to10000FtPct": 80.9,
+      "meanRh10000to15000FtPct": 88.7,
+      "meanRh20000to25000FtPct": 91.6
     },
     {
       "date": "2026-08-15",
@@ -720,7 +1254,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.7,
       "kIndex": 38.5,
       "sweatIndex": 239,
-      "precipitableWaterTotalCm": 6.02
+      "precipitableWaterTotalCm": 6.02,
+      "meanWindDirection5000to10000FtDeg": 268.6,
+      "meanWindSpeed5000to10000FtMs": 9.3,
+      "meanRh1000to5000FtPct": 78.4,
+      "meanRh5000to10000FtPct": 73.5,
+      "meanRh10000to15000FtPct": 91.1,
+      "meanRh20000to25000FtPct": 76.0
     },
     {
       "date": "2026-08-16",
@@ -728,7 +1268,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.4,
       "kIndex": 33.6,
       "sweatIndex": 221.6,
-      "precipitableWaterTotalCm": 5.64
+      "precipitableWaterTotalCm": 5.64,
+      "meanWindDirection5000to10000FtDeg": 282.8,
+      "meanWindSpeed5000to10000FtMs": 14.7,
+      "meanRh1000to5000FtPct": 85.4,
+      "meanRh5000to10000FtPct": 57.1,
+      "meanRh10000to15000FtPct": 84.6,
+      "meanRh20000to25000FtPct": 77.9
     },
     {
       "date": "2026-08-17",
@@ -736,7 +1282,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0,
       "kIndex": 35.9,
       "sweatIndex": 232.2,
-      "precipitableWaterTotalCm": 5.67
+      "precipitableWaterTotalCm": 5.67,
+      "meanWindDirection5000to10000FtDeg": 280.0,
+      "meanWindSpeed5000to10000FtMs": 9.3,
+      "meanRh1000to5000FtPct": 75.9,
+      "meanRh5000to10000FtPct": 63.1,
+      "meanRh10000to15000FtPct": 79.2,
+      "meanRh20000to25000FtPct": 90.2
     },
     {
       "date": "2026-08-18",
@@ -744,7 +1296,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 35.9,
       "sweatIndex": 225.4,
-      "precipitableWaterTotalCm": 5.47
+      "precipitableWaterTotalCm": 5.47,
+      "meanWindDirection5000to10000FtDeg": 311.9,
+      "meanWindSpeed5000to10000FtMs": 9.7,
+      "meanRh1000to5000FtPct": 76.8,
+      "meanRh5000to10000FtPct": 70.1,
+      "meanRh10000to15000FtPct": 75.2,
+      "meanRh20000to25000FtPct": 77.4
     },
     {
       "date": "2026-08-19",
@@ -752,7 +1310,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.4,
       "kIndex": 37,
       "sweatIndex": 238.2,
-      "precipitableWaterTotalCm": 5.99
+      "precipitableWaterTotalCm": 5.99,
+      "meanWindDirection5000to10000FtDeg": 311.8,
+      "meanWindSpeed5000to10000FtMs": 10.8,
+      "meanRh1000to5000FtPct": 79.9,
+      "meanRh5000to10000FtPct": 72.7,
+      "meanRh10000to15000FtPct": 92.0,
+      "meanRh20000to25000FtPct": 69.6
     },
     {
       "date": "2026-08-20",
@@ -760,7 +1324,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.1,
       "kIndex": 39.2,
       "sweatIndex": 288.5,
-      "precipitableWaterTotalCm": 6.89
+      "precipitableWaterTotalCm": 6.89,
+      "meanWindDirection5000to10000FtDeg": 288.4,
+      "meanWindSpeed5000to10000FtMs": 13.5,
+      "meanRh1000to5000FtPct": 89.7,
+      "meanRh5000to10000FtPct": 98.7,
+      "meanRh10000to15000FtPct": 100.0,
+      "meanRh20000to25000FtPct": 97.3
     },
     {
       "date": "2026-08-22",
@@ -768,7 +1338,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 34.2,
       "sweatIndex": 284.8,
-      "precipitableWaterTotalCm": 6.08
+      "precipitableWaterTotalCm": 6.08,
+      "meanWindDirection5000to10000FtDeg": 270.0,
+      "meanWindSpeed5000to10000FtMs": 15.2,
+      "meanRh1000to5000FtPct": 89.0,
+      "meanRh5000to10000FtPct": 81.2,
+      "meanRh10000to15000FtPct": 84.8,
+      "meanRh20000to25000FtPct": 87.6
     },
     {
       "date": "2026-08-23",
@@ -776,7 +1352,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.8,
       "kIndex": 37.6,
       "sweatIndex": 264,
-      "precipitableWaterTotalCm": 6.23
+      "precipitableWaterTotalCm": 6.23,
+      "meanWindDirection5000to10000FtDeg": 282.8,
+      "meanWindSpeed5000to10000FtMs": 14.9,
+      "meanRh1000to5000FtPct": 83.1,
+      "meanRh5000to10000FtPct": 93.6,
+      "meanRh10000to15000FtPct": 94.2,
+      "meanRh20000to25000FtPct": 96.4
     },
     {
       "date": "2026-08-24",
@@ -784,7 +1366,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.4,
       "kIndex": 30.8,
       "sweatIndex": 285.6,
-      "precipitableWaterTotalCm": 5.68
+      "precipitableWaterTotalCm": 5.68,
+      "meanWindDirection5000to10000FtDeg": 298.2,
+      "meanWindSpeed5000to10000FtMs": 19.3,
+      "meanRh1000to5000FtPct": 82.1,
+      "meanRh5000to10000FtPct": 76.2,
+      "meanRh10000to15000FtPct": 71.5,
+      "meanRh20000to25000FtPct": 86.3
     },
     {
       "date": "2026-08-25",
@@ -792,7 +1380,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.1,
       "kIndex": 38.3,
       "sweatIndex": 238.2,
-      "precipitableWaterTotalCm": 5.48
+      "precipitableWaterTotalCm": 5.48,
+      "meanWindDirection5000to10000FtDeg": 309.6,
+      "meanWindSpeed5000to10000FtMs": 8.8,
+      "meanRh1000to5000FtPct": 72.3,
+      "meanRh5000to10000FtPct": 72.7,
+      "meanRh10000to15000FtPct": 88.0,
+      "meanRh20000to25000FtPct": 69.8
     },
     {
       "date": "2026-08-26",
@@ -800,7 +1394,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 40,
       "sweatIndex": 256.8,
-      "precipitableWaterTotalCm": 6.25
+      "precipitableWaterTotalCm": 6.25,
+      "meanWindDirection5000to10000FtDeg": 292.6,
+      "meanWindSpeed5000to10000FtMs": 10.5,
+      "meanRh1000to5000FtPct": 80.0,
+      "meanRh5000to10000FtPct": 100.0,
+      "meanRh10000to15000FtPct": 100.0,
+      "meanRh20000to25000FtPct": 86.7
     },
     {
       "date": "2026-08-27",
@@ -808,7 +1408,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.4,
       "kIndex": 37.5,
       "sweatIndex": 256.6,
-      "precipitableWaterTotalCm": 6.29
+      "precipitableWaterTotalCm": 6.29,
+      "meanWindDirection5000to10000FtDeg": 255.0,
+      "meanWindSpeed5000to10000FtMs": 8.8,
+      "meanRh1000to5000FtPct": 85.3,
+      "meanRh5000to10000FtPct": 90.6,
+      "meanRh10000to15000FtPct": 95.4,
+      "meanRh20000to25000FtPct": 78.1
     },
     {
       "date": "2026-08-28",
@@ -816,7 +1422,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3.3,
       "kIndex": 26,
       "sweatIndex": 254.8,
-      "precipitableWaterTotalCm": 5.53
+      "precipitableWaterTotalCm": 5.53,
+      "meanWindDirection5000to10000FtDeg": 273.2,
+      "meanWindSpeed5000to10000FtMs": 14.1,
+      "meanRh1000to5000FtPct": 86.3,
+      "meanRh5000to10000FtPct": 75.4,
+      "meanRh10000to15000FtPct": 62.1,
+      "meanRh20000to25000FtPct": 74.2
     },
     {
       "date": "2026-08-29",
@@ -824,7 +1436,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.1,
       "kIndex": 37.4,
       "sweatIndex": 246,
-      "precipitableWaterTotalCm": 6.06
+      "precipitableWaterTotalCm": 6.06,
+      "meanWindDirection5000to10000FtDeg": 260.0,
+      "meanWindSpeed5000to10000FtMs": 13.9,
+      "meanRh1000to5000FtPct": 90.0,
+      "meanRh5000to10000FtPct": 76.1,
+      "meanRh10000to15000FtPct": 80.6,
+      "meanRh20000to25000FtPct": 75.0
     },
     {
       "date": "2026-08-30",
@@ -832,7 +1450,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.2,
       "kIndex": 34.8,
       "sweatIndex": 262.4,
-      "precipitableWaterTotalCm": 5.72
+      "precipitableWaterTotalCm": 5.72,
+      "meanWindDirection5000to10000FtDeg": 277.5,
+      "meanWindSpeed5000to10000FtMs": 15.7,
+      "meanRh1000to5000FtPct": 87.1,
+      "meanRh5000to10000FtPct": 67.6,
+      "meanRh10000to15000FtPct": 64.3,
+      "meanRh20000to25000FtPct": 89.5
     },
     {
       "date": "2026-08-31",
@@ -840,7 +1464,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.9,
       "kIndex": 37.4,
       "sweatIndex": 223.6,
-      "precipitableWaterTotalCm": 5.88
+      "precipitableWaterTotalCm": 5.88,
+      "meanWindDirection5000to10000FtDeg": 265.2,
+      "meanWindSpeed5000to10000FtMs": 13.3,
+      "meanRh1000to5000FtPct": 85.1,
+      "meanRh5000to10000FtPct": 59.4,
+      "meanRh10000to15000FtPct": 94.1,
+      "meanRh20000to25000FtPct": 95.3
     },
     {
       "date": "2026-09-01",
@@ -848,7 +1478,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3,
       "kIndex": 35.3,
       "sweatIndex": 226.8,
-      "precipitableWaterTotalCm": 5.53
+      "precipitableWaterTotalCm": 5.53,
+      "meanWindDirection5000to10000FtDeg": 284.2,
+      "meanWindSpeed5000to10000FtMs": 13.2,
+      "meanRh1000to5000FtPct": 80.9,
+      "meanRh5000to10000FtPct": 75.9,
+      "meanRh10000to15000FtPct": 87.3,
+      "meanRh20000to25000FtPct": 51.3
     },
     {
       "date": "2026-09-02",
@@ -856,7 +1492,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.1,
       "kIndex": 38.7,
       "sweatIndex": 225.4,
-      "precipitableWaterTotalCm": 5.87
+      "precipitableWaterTotalCm": 5.87,
+      "meanWindDirection5000to10000FtDeg": 262.7,
+      "meanWindSpeed5000to10000FtMs": 6.7,
+      "meanRh1000to5000FtPct": 79.8,
+      "meanRh5000to10000FtPct": 85.4,
+      "meanRh10000to15000FtPct": 96.0,
+      "meanRh20000to25000FtPct": 79.5
     },
     {
       "date": "2026-09-03",
@@ -864,7 +1506,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2,
       "kIndex": 32.5,
       "sweatIndex": 204.8,
-      "precipitableWaterTotalCm": 5.42
+      "precipitableWaterTotalCm": 5.42,
+      "meanWindDirection5000to10000FtDeg": 313.5,
+      "meanWindSpeed5000to10000FtMs": 7.9,
+      "meanRh1000to5000FtPct": 72.9,
+      "meanRh5000to10000FtPct": 79.3,
+      "meanRh10000to15000FtPct": 69.4,
+      "meanRh20000to25000FtPct": 81.0
     },
     {
       "date": "2026-09-04",
@@ -872,7 +1520,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.2,
       "kIndex": 38.3,
       "sweatIndex": 216.6,
-      "precipitableWaterTotalCm": 5.71
+      "precipitableWaterTotalCm": 5.71,
+      "meanWindDirection5000to10000FtDeg": 300.0,
+      "meanWindSpeed5000to10000FtMs": 4.1,
+      "meanRh1000to5000FtPct": 74.5,
+      "meanRh5000to10000FtPct": 91.2,
+      "meanRh10000to15000FtPct": 85.6,
+      "meanRh20000to25000FtPct": 50.6
     },
     {
       "date": "2026-09-05",
@@ -880,7 +1534,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.6,
       "kIndex": 39.1,
       "sweatIndex": 225.4,
-      "precipitableWaterTotalCm": 5.86
+      "precipitableWaterTotalCm": 5.86,
+      "meanWindDirection5000to10000FtDeg": 330.0,
+      "meanWindSpeed5000to10000FtMs": 7.2,
+      "meanRh1000to5000FtPct": 82.3,
+      "meanRh5000to10000FtPct": 89.3,
+      "meanRh10000to15000FtPct": 88.7,
+      "meanRh20000to25000FtPct": 87.2
     },
     {
       "date": "2026-09-06",
@@ -888,7 +1548,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.1,
       "kIndex": 33.2,
       "sweatIndex": 241.8,
-      "precipitableWaterTotalCm": 5.74
+      "precipitableWaterTotalCm": 5.74,
+      "meanWindDirection5000to10000FtDeg": 285.0,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 89.2,
+      "meanRh5000to10000FtPct": 77.0,
+      "meanRh10000to15000FtPct": 66.3,
+      "meanRh20000to25000FtPct": 60.6
     },
     {
       "date": "2026-09-07",
@@ -896,7 +1562,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.2,
       "kIndex": 40.1,
       "sweatIndex": 220.8,
-      "precipitableWaterTotalCm": 6
+      "precipitableWaterTotalCm": 6,
+      "meanWindDirection5000to10000FtDeg": 256.1,
+      "meanWindSpeed5000to10000FtMs": 12.1,
+      "meanRh1000to5000FtPct": 72.1,
+      "meanRh5000to10000FtPct": 81.3,
+      "meanRh10000to15000FtPct": 93.4,
+      "meanRh20000to25000FtPct": 77.9
     },
     {
       "date": "2026-09-08",
@@ -904,7 +1576,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.1,
       "kIndex": 38.4,
       "sweatIndex": 219.2,
-      "precipitableWaterTotalCm": 5.93
+      "precipitableWaterTotalCm": 5.93,
+      "meanWindDirection5000to10000FtDeg": 246.6,
+      "meanWindSpeed5000to10000FtMs": 7.5,
+      "meanRh1000to5000FtPct": 83.3,
+      "meanRh5000to10000FtPct": 96.6,
+      "meanRh10000to15000FtPct": 73.6,
+      "meanRh20000to25000FtPct": 84.8
     },
     {
       "date": "2026-09-09",
@@ -912,7 +1590,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 33.1,
       "sweatIndex": 230.2,
-      "precipitableWaterTotalCm": 5.8
+      "precipitableWaterTotalCm": 5.8,
+      "meanWindDirection5000to10000FtDeg": 262.7,
+      "meanWindSpeed5000to10000FtMs": 6.7,
+      "meanRh1000to5000FtPct": 89.3,
+      "meanRh5000to10000FtPct": 85.9,
+      "meanRh10000to15000FtPct": 75.1,
+      "meanRh20000to25000FtPct": 88.1
     },
     {
       "date": "2026-09-10",
@@ -920,7 +1604,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.5,
       "kIndex": 36.9,
       "sweatIndex": 218.6,
-      "precipitableWaterTotalCm": 6.15
+      "precipitableWaterTotalCm": 6.15,
+      "meanWindDirection5000to10000FtDeg": 155.0,
+      "meanWindSpeed5000to10000FtMs": 0.5,
+      "meanRh1000to5000FtPct": 88.6,
+      "meanRh5000to10000FtPct": 88.7,
+      "meanRh10000to15000FtPct": 86.1,
+      "meanRh20000to25000FtPct": 93.6
     }
   ],
   "rongKwangRecords": [
@@ -930,7 +1620,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 6.5,
       "kIndex": 0.7,
       "sweatIndex": 142.8,
-      "precipitableWaterTotalCm": 2.52
+      "precipitableWaterTotalCm": 2.52,
+      "meanWindDirection5000to10000FtDeg": 222.4,
+      "meanWindSpeed5000to10000FtMs": 3.0,
+      "meanRh1000to5000FtPct": 67.7,
+      "meanRh5000to10000FtPct": 48.6,
+      "meanRh10000to15000FtPct": 9.9,
+      "meanRh20000to25000FtPct": 6.8
     },
     {
       "date": "2026-01-30",
@@ -938,7 +1634,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 6.0,
       "kIndex": 1.5,
       "sweatIndex": 163.0,
-      "precipitableWaterTotalCm": 2.41
+      "precipitableWaterTotalCm": 2.41,
+      "meanWindDirection5000to10000FtDeg": 264.5,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 71.9,
+      "meanRh5000to10000FtPct": 38.6,
+      "meanRh10000to15000FtPct": 9.8,
+      "meanRh20000to25000FtPct": 5.5
     },
     {
       "date": "2026-01-31",
@@ -946,7 +1648,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 8.0,
       "kIndex": -0.7,
       "sweatIndex": 120.2,
-      "precipitableWaterTotalCm": 2.22
+      "precipitableWaterTotalCm": 2.22,
+      "meanWindDirection5000to10000FtDeg": 6.9,
+      "meanWindSpeed5000to10000FtMs": 3.3,
+      "meanRh1000to5000FtPct": 67.3,
+      "meanRh5000to10000FtPct": 43.7,
+      "meanRh10000to15000FtPct": 9.9,
+      "meanRh20000to25000FtPct": 10.1
     },
     {
       "date": "2026-02-01",
@@ -954,7 +1662,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 5.0,
       "kIndex": 5.7,
       "sweatIndex": 135.2,
-      "precipitableWaterTotalCm": 2.48
+      "precipitableWaterTotalCm": 2.48,
+      "meanWindDirection5000to10000FtDeg": 231.9,
+      "meanWindSpeed5000to10000FtMs": 2.7,
+      "meanRh1000to5000FtPct": 74.8,
+      "meanRh5000to10000FtPct": 38.6,
+      "meanRh10000to15000FtPct": 12.1,
+      "meanRh20000to25000FtPct": 8.3
     },
     {
       "date": "2026-02-02",
@@ -962,7 +1676,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 5.1,
       "kIndex": 3.3,
       "sweatIndex": 111.8,
-      "precipitableWaterTotalCm": 2.49
+      "precipitableWaterTotalCm": 2.49,
+      "meanWindDirection5000to10000FtDeg": 40.3,
+      "meanWindSpeed5000to10000FtMs": 0.6,
+      "meanRh1000to5000FtPct": 75.0,
+      "meanRh5000to10000FtPct": 41.6,
+      "meanRh10000to15000FtPct": 10.7,
+      "meanRh20000to25000FtPct": 13.9
     },
     {
       "date": "2026-02-03",
@@ -970,7 +1690,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 9.7,
       "kIndex": -3.7,
       "sweatIndex": 99.2,
-      "precipitableWaterTotalCm": 2.15
+      "precipitableWaterTotalCm": 2.15,
+      "meanWindDirection5000to10000FtDeg": 95.9,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 73.0,
+      "meanRh5000to10000FtPct": 45.3,
+      "meanRh10000to15000FtPct": 10.2,
+      "meanRh20000to25000FtPct": 38.3
     },
     {
       "date": "2026-02-04",
@@ -978,7 +1704,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 8.5,
       "kIndex": -1.7,
       "sweatIndex": 106.6,
-      "precipitableWaterTotalCm": 2.23
+      "precipitableWaterTotalCm": 2.23,
+      "meanWindDirection5000to10000FtDeg": 345.3,
+      "meanWindSpeed5000to10000FtMs": 1.4,
+      "meanRh1000to5000FtPct": 62.8,
+      "meanRh5000to10000FtPct": 51.4,
+      "meanRh10000to15000FtPct": 9.8,
+      "meanRh20000to25000FtPct": 20.9
     },
     {
       "date": "2026-02-06",
@@ -986,7 +1718,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.5,
       "kIndex": 3.9,
       "sweatIndex": 188.2,
-      "precipitableWaterTotalCm": 2.82
+      "precipitableWaterTotalCm": 2.82,
+      "meanWindDirection5000to10000FtDeg": 295.6,
+      "meanWindSpeed5000to10000FtMs": 3.0,
+      "meanRh1000to5000FtPct": 72.1,
+      "meanRh5000to10000FtPct": 46.1,
+      "meanRh10000to15000FtPct": 10.3,
+      "meanRh20000to25000FtPct": 20.6
     },
     {
       "date": "2026-02-07",
@@ -994,7 +1732,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.3,
       "kIndex": 6.1,
       "sweatIndex": 163.8,
-      "precipitableWaterTotalCm": 2.59
+      "precipitableWaterTotalCm": 2.59,
+      "meanWindDirection5000to10000FtDeg": 239.3,
+      "meanWindSpeed5000to10000FtMs": 4.7,
+      "meanRh1000to5000FtPct": 64.7,
+      "meanRh5000to10000FtPct": 30.9,
+      "meanRh10000to15000FtPct": 10.3,
+      "meanRh20000to25000FtPct": 6.3
     },
     {
       "date": "2026-02-08",
@@ -1002,7 +1746,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3.3,
       "kIndex": 12.9,
       "sweatIndex": 203.6,
-      "precipitableWaterTotalCm": 3.1
+      "precipitableWaterTotalCm": 3.1,
+      "meanWindDirection5000to10000FtDeg": 183.0,
+      "meanWindSpeed5000to10000FtMs": 6.5,
+      "meanRh1000to5000FtPct": 71.5,
+      "meanRh5000to10000FtPct": 77.0,
+      "meanRh10000to15000FtPct": 16.1,
+      "meanRh20000to25000FtPct": 6.4
     },
     {
       "date": "2026-02-09",
@@ -1010,7 +1760,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 7.0,
       "kIndex": 23.2,
       "sweatIndex": 203.0,
-      "precipitableWaterTotalCm": 3.35
+      "precipitableWaterTotalCm": 3.35,
+      "meanWindDirection5000to10000FtDeg": 235.0,
+      "meanWindSpeed5000to10000FtMs": 4.5,
+      "meanRh1000to5000FtPct": 72.1,
+      "meanRh5000to10000FtPct": 85.9,
+      "meanRh10000to15000FtPct": 53.3,
+      "meanRh20000to25000FtPct": 5.7
     },
     {
       "date": "2026-02-10",
@@ -1018,7 +1774,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 5.9,
       "kIndex": 29.2,
       "sweatIndex": 183.8,
-      "precipitableWaterTotalCm": 3.61
+      "precipitableWaterTotalCm": 3.61,
+      "meanWindDirection5000to10000FtDeg": 235.0,
+      "meanWindSpeed5000to10000FtMs": 4.1,
+      "meanRh1000to5000FtPct": 78.5,
+      "meanRh5000to10000FtPct": 82.5,
+      "meanRh10000to15000FtPct": 54.2,
+      "meanRh20000to25000FtPct": 5.9
     },
     {
       "date": "2026-02-11",
@@ -1026,7 +1788,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.4,
       "kIndex": 28.3,
       "sweatIndex": 184.0,
-      "precipitableWaterTotalCm": 3.37
+      "precipitableWaterTotalCm": 3.37,
+      "meanWindDirection5000to10000FtDeg": 245.3,
+      "meanWindSpeed5000to10000FtMs": 3.5,
+      "meanRh1000to5000FtPct": 72.9,
+      "meanRh5000to10000FtPct": 73.9,
+      "meanRh10000to15000FtPct": 40.2,
+      "meanRh20000to25000FtPct": 6.4
     },
     {
       "date": "2026-02-12",
@@ -1034,7 +1802,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 6.2,
       "kIndex": 28.9,
       "sweatIndex": 145.6,
-      "precipitableWaterTotalCm": 3.14
+      "precipitableWaterTotalCm": 3.14,
+      "meanWindDirection5000to10000FtDeg": 226.0,
+      "meanWindSpeed5000to10000FtMs": 6.9,
+      "meanRh1000to5000FtPct": 65.3,
+      "meanRh5000to10000FtPct": 61.8,
+      "meanRh10000to15000FtPct": 51.5,
+      "meanRh20000to25000FtPct": 6.4
     },
     {
       "date": "2026-02-13",
@@ -1042,7 +1816,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 7.1,
       "kIndex": 30.0,
       "sweatIndex": 158.0,
-      "precipitableWaterTotalCm": 2.81
+      "precipitableWaterTotalCm": 2.81,
+      "meanWindDirection5000to10000FtDeg": 198.2,
+      "meanWindSpeed5000to10000FtMs": 5.6,
+      "meanRh1000to5000FtPct": 62.2,
+      "meanRh5000to10000FtPct": 58.0,
+      "meanRh10000to15000FtPct": 47.4,
+      "meanRh20000to25000FtPct": 5.6
     },
     {
       "date": "2026-02-14",
@@ -1050,7 +1830,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3.9,
       "kIndex": 7.1,
       "sweatIndex": 168.6,
-      "precipitableWaterTotalCm": 2.78
+      "precipitableWaterTotalCm": 2.78,
+      "meanWindDirection5000to10000FtDeg": 180.0,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 70.2,
+      "meanRh5000to10000FtPct": 67.1,
+      "meanRh10000to15000FtPct": 24.3,
+      "meanRh20000to25000FtPct": 8.6
     },
     {
       "date": "2026-02-15",
@@ -1058,7 +1844,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 7.5,
       "kIndex": 0.9,
       "sweatIndex": 120.6,
-      "precipitableWaterTotalCm": 2.52
+      "precipitableWaterTotalCm": 2.52,
+      "meanWindDirection5000to10000FtDeg": 220.0,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 55.2,
+      "meanRh5000to10000FtPct": 68.6,
+      "meanRh10000to15000FtPct": 10.2,
+      "meanRh20000to25000FtPct": 6.4
     },
     {
       "date": "2026-02-16",
@@ -1066,7 +1858,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.0,
       "kIndex": 5.3,
       "sweatIndex": 173.4,
-      "precipitableWaterTotalCm": 3.1
+      "precipitableWaterTotalCm": 3.1,
+      "meanWindDirection5000to10000FtDeg": 198.5,
+      "meanWindSpeed5000to10000FtMs": 3.7,
+      "meanRh1000to5000FtPct": 68.8,
+      "meanRh5000to10000FtPct": 67.9,
+      "meanRh10000to15000FtPct": 9.9,
+      "meanRh20000to25000FtPct": 5.6
     },
     {
       "date": "2026-02-17",
@@ -1074,7 +1872,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 3.3,
       "kIndex": 34.4,
       "sweatIndex": 156.8,
-      "precipitableWaterTotalCm": 3.53
+      "precipitableWaterTotalCm": 3.53,
+      "meanWindDirection5000to10000FtDeg": 130.0,
+      "meanWindSpeed5000to10000FtMs": 2.6,
+      "meanRh1000to5000FtPct": 68.8,
+      "meanRh5000to10000FtPct": 96.1,
+      "meanRh10000to15000FtPct": 43.0,
+      "meanRh20000to25000FtPct": 17.0
     },
     {
       "date": "2026-02-18",
@@ -1082,7 +1886,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.4,
       "kIndex": 36.5,
       "sweatIndex": 158.4,
-      "precipitableWaterTotalCm": 3.81
+      "precipitableWaterTotalCm": 3.81,
+      "meanWindDirection5000to10000FtDeg": 208.3,
+      "meanWindSpeed5000to10000FtMs": 0.8,
+      "meanRh1000to5000FtPct": 67.5,
+      "meanRh5000to10000FtPct": 65.2,
+      "meanRh10000to15000FtPct": 73.9,
+      "meanRh20000to25000FtPct": 10.2
     },
     {
       "date": "2026-02-19",
@@ -1090,7 +1900,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.5,
       "kIndex": 33.6,
       "sweatIndex": 173.8,
-      "precipitableWaterTotalCm": 3.88
+      "precipitableWaterTotalCm": 3.88,
+      "meanWindDirection5000to10000FtDeg": 164.5,
+      "meanWindSpeed5000to10000FtMs": 2.2,
+      "meanRh1000to5000FtPct": 74.5,
+      "meanRh5000to10000FtPct": 82.6,
+      "meanRh10000to15000FtPct": 44.0,
+      "meanRh20000to25000FtPct": 13.9
     },
     {
       "date": "2026-02-20",
@@ -1098,7 +1914,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 36.2,
       "sweatIndex": 195.6,
-      "precipitableWaterTotalCm": 4.37
+      "precipitableWaterTotalCm": 4.37,
+      "meanWindDirection5000to10000FtDeg": 217.7,
+      "meanWindSpeed5000to10000FtMs": 3.3,
+      "meanRh1000to5000FtPct": 67.1,
+      "meanRh5000to10000FtPct": 72.6,
+      "meanRh10000to15000FtPct": 82.8,
+      "meanRh20000to25000FtPct": 44.4
     },
     {
       "date": "2026-02-21",
@@ -1106,7 +1928,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.7,
       "kIndex": 37.1,
       "sweatIndex": 267.6,
-      "precipitableWaterTotalCm": 4.2
+      "precipitableWaterTotalCm": 4.2,
+      "meanWindDirection5000to10000FtDeg": 291.8,
+      "meanWindSpeed5000to10000FtMs": 6.6,
+      "meanRh1000to5000FtPct": 74.7,
+      "meanRh5000to10000FtPct": 97.3,
+      "meanRh10000to15000FtPct": 50.2,
+      "meanRh20000to25000FtPct": 42.4
     },
     {
       "date": "2026-02-22",
@@ -1114,7 +1942,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.2,
       "kIndex": 34.4,
       "sweatIndex": 165.2,
-      "precipitableWaterTotalCm": 4.39
+      "precipitableWaterTotalCm": 4.39,
+      "meanWindDirection5000to10000FtDeg": 295.0,
+      "meanWindSpeed5000to10000FtMs": 5.4,
+      "meanRh1000to5000FtPct": 62.9,
+      "meanRh5000to10000FtPct": 66.9,
+      "meanRh10000to15000FtPct": 76.6,
+      "meanRh20000to25000FtPct": 84.7
     },
     {
       "date": "2026-02-23",
@@ -1122,7 +1956,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 29.3,
       "sweatIndex": 209.2,
-      "precipitableWaterTotalCm": 4.31
+      "precipitableWaterTotalCm": 4.31,
+      "meanWindDirection5000to10000FtDeg": 255.0,
+      "meanWindSpeed5000to10000FtMs": 6.6,
+      "meanRh1000to5000FtPct": 73.3,
+      "meanRh5000to10000FtPct": 49.4,
+      "meanRh10000to15000FtPct": 66.1,
+      "meanRh20000to25000FtPct": 77.6
     },
     {
       "date": "2026-02-24",
@@ -1130,7 +1970,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.7,
       "kIndex": 34.4,
       "sweatIndex": 184.2,
-      "precipitableWaterTotalCm": 4.41
+      "precipitableWaterTotalCm": 4.41,
+      "meanWindDirection5000to10000FtDeg": 245.5,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 53.4,
+      "meanRh5000to10000FtPct": 74.9,
+      "meanRh10000to15000FtPct": 87.7,
+      "meanRh20000to25000FtPct": 91.4
     },
     {
       "date": "2026-02-25",
@@ -1138,7 +1984,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.4,
       "kIndex": 35.3,
       "sweatIndex": 214.8,
-      "precipitableWaterTotalCm": 4.61
+      "precipitableWaterTotalCm": 4.61,
+      "meanWindDirection5000to10000FtDeg": 210.1,
+      "meanWindSpeed5000to10000FtMs": 3.7,
+      "meanRh1000to5000FtPct": 81.7,
+      "meanRh5000to10000FtPct": 90.9,
+      "meanRh10000to15000FtPct": 86.7,
+      "meanRh20000to25000FtPct": 49.9
     },
     {
       "date": "2026-02-26",
@@ -1146,7 +1998,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.8,
       "kIndex": 30.6,
       "sweatIndex": 242.8,
-      "precipitableWaterTotalCm": 4.0
+      "precipitableWaterTotalCm": 4.0,
+      "meanWindDirection5000to10000FtDeg": 247.9,
+      "meanWindSpeed5000to10000FtMs": 11.1,
+      "meanRh1000to5000FtPct": 87.0,
+      "meanRh5000to10000FtPct": 73.5,
+      "meanRh10000to15000FtPct": 68.5,
+      "meanRh20000to25000FtPct": 25.7
     },
     {
       "date": "2026-02-28",
@@ -1154,7 +2012,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 6.8,
       "kIndex": 29.7,
       "sweatIndex": 175.6,
-      "precipitableWaterTotalCm": 3.66
+      "precipitableWaterTotalCm": 3.66,
+      "meanWindDirection5000to10000FtDeg": 247.3,
+      "meanWindSpeed5000to10000FtMs": 10.0,
+      "meanRh1000to5000FtPct": 68.4,
+      "meanRh5000to10000FtPct": 77.5,
+      "meanRh10000to15000FtPct": 59.9,
+      "meanRh20000to25000FtPct": 6.0
     },
     {
       "date": "2026-03-01",
@@ -1162,7 +2026,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 8.0,
       "kIndex": 29.3,
       "sweatIndex": 164.6,
-      "precipitableWaterTotalCm": 3.08
+      "precipitableWaterTotalCm": 3.08,
+      "meanWindDirection5000to10000FtDeg": 230.0,
+      "meanWindSpeed5000to10000FtMs": 8.8,
+      "meanRh1000to5000FtPct": 60.2,
+      "meanRh5000to10000FtPct": 88.1,
+      "meanRh10000to15000FtPct": 53.2,
+      "meanRh20000to25000FtPct": 6.3
     },
     {
       "date": "2026-03-02",
@@ -1170,7 +2040,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 10.9,
       "kIndex": -3.5,
       "sweatIndex": 204.8,
-      "precipitableWaterTotalCm": 2.09
+      "precipitableWaterTotalCm": 2.09,
+      "meanWindDirection5000to10000FtDeg": 237.4,
+      "meanWindSpeed5000to10000FtMs": 8.2,
+      "meanRh1000to5000FtPct": 64.7,
+      "meanRh5000to10000FtPct": 29.6,
+      "meanRh10000to15000FtPct": 9.9,
+      "meanRh20000to25000FtPct": 5.8
     },
     {
       "date": "2026-03-03",
@@ -1178,7 +2054,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 8.9,
       "kIndex": 26.1,
       "sweatIndex": 109.6,
-      "precipitableWaterTotalCm": 2.36
+      "precipitableWaterTotalCm": 2.36,
+      "meanWindDirection5000to10000FtDeg": 336.7,
+      "meanWindSpeed5000to10000FtMs": 3.0,
+      "meanRh1000to5000FtPct": 50.3,
+      "meanRh5000to10000FtPct": 57.5,
+      "meanRh10000to15000FtPct": 35.1,
+      "meanRh20000to25000FtPct": 5.6
     },
     {
       "date": "2026-03-04",
@@ -1186,7 +2068,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 7.7,
       "kIndex": 21.3,
       "sweatIndex": 89.0,
-      "precipitableWaterTotalCm": 2.36
+      "precipitableWaterTotalCm": 2.36,
+      "meanWindDirection5000to10000FtDeg": 92.8,
+      "meanWindSpeed5000to10000FtMs": 4.6,
+      "meanRh1000to5000FtPct": 48.7,
+      "meanRh5000to10000FtPct": 50.2,
+      "meanRh10000to15000FtPct": 36.7,
+      "meanRh20000to25000FtPct": 7.2
     },
     {
       "date": "2026-03-05",
@@ -1194,7 +2082,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.6,
       "kIndex": 27.3,
       "sweatIndex": 174.6,
-      "precipitableWaterTotalCm": 2.68
+      "precipitableWaterTotalCm": 2.68,
+      "meanWindDirection5000to10000FtDeg": 187.9,
+      "meanWindSpeed5000to10000FtMs": 5.4,
+      "meanRh1000to5000FtPct": 61.2,
+      "meanRh5000to10000FtPct": 52.4,
+      "meanRh10000to15000FtPct": 28.4,
+      "meanRh20000to25000FtPct": 5.3
     },
     {
       "date": "2026-03-06",
@@ -1202,7 +2096,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.8,
       "kIndex": 38.7,
       "sweatIndex": 212.8,
-      "precipitableWaterTotalCm": 3.64
+      "precipitableWaterTotalCm": 3.64,
+      "meanWindDirection5000to10000FtDeg": 170.0,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 73.4,
+      "meanRh5000to10000FtPct": 97.3,
+      "meanRh10000to15000FtPct": 47.1,
+      "meanRh20000to25000FtPct": 6.2
     },
     {
       "date": "2026-03-07",
@@ -1210,7 +2110,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.2,
       "kIndex": 29.4,
       "sweatIndex": 202.8,
-      "precipitableWaterTotalCm": 3.75
+      "precipitableWaterTotalCm": 3.75,
+      "meanWindDirection5000to10000FtDeg": 211.2,
+      "meanWindSpeed5000to10000FtMs": 3.2,
+      "meanRh1000to5000FtPct": 82.3,
+      "meanRh5000to10000FtPct": 61.9,
+      "meanRh10000to15000FtPct": 47.0,
+      "meanRh20000to25000FtPct": 8.4
     },
     {
       "date": "2026-03-08",
@@ -1218,7 +2124,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.1,
       "kIndex": 35.2,
       "sweatIndex": 195.6,
-      "precipitableWaterTotalCm": 3.51
+      "precipitableWaterTotalCm": 3.51,
+      "meanWindDirection5000to10000FtDeg": 202.6,
+      "meanWindSpeed5000to10000FtMs": 5.3,
+      "meanRh1000to5000FtPct": 71.4,
+      "meanRh5000to10000FtPct": 70.6,
+      "meanRh10000to15000FtPct": 41.7,
+      "meanRh20000to25000FtPct": 13.5
     },
     {
       "date": "2026-03-09",
@@ -1226,7 +2138,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.0,
       "kIndex": 38.0,
       "sweatIndex": 208.0,
-      "precipitableWaterTotalCm": 3.9
+      "precipitableWaterTotalCm": 3.9,
+      "meanWindDirection5000to10000FtDeg": 140.6,
+      "meanWindSpeed5000to10000FtMs": 1.0,
+      "meanRh1000to5000FtPct": 75.4,
+      "meanRh5000to10000FtPct": 79.3,
+      "meanRh10000to15000FtPct": 43.0,
+      "meanRh20000to25000FtPct": 6.4
     },
     {
       "date": "2026-03-10",
@@ -1234,7 +2152,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.5,
       "kIndex": 26.9,
       "sweatIndex": 178.8,
-      "precipitableWaterTotalCm": 3.62
+      "precipitableWaterTotalCm": 3.62,
+      "meanWindDirection5000to10000FtDeg": 154.1,
+      "meanWindSpeed5000to10000FtMs": 2.0,
+      "meanRh1000to5000FtPct": 69.4,
+      "meanRh5000to10000FtPct": 75.5,
+      "meanRh10000to15000FtPct": 46.7,
+      "meanRh20000to25000FtPct": 8.9
     },
     {
       "date": "2026-03-11",
@@ -1242,7 +2166,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.0,
       "kIndex": 36.9,
       "sweatIndex": 217.0,
-      "precipitableWaterTotalCm": 4.17
+      "precipitableWaterTotalCm": 4.17,
+      "meanWindDirection5000to10000FtDeg": 315.9,
+      "meanWindSpeed5000to10000FtMs": 2.3,
+      "meanRh1000to5000FtPct": 68.9,
+      "meanRh5000to10000FtPct": 80.4,
+      "meanRh10000to15000FtPct": 88.3,
+      "meanRh20000to25000FtPct": 54.2
     },
     {
       "date": "2026-03-12",
@@ -1250,7 +2180,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.5,
       "kIndex": 32.0,
       "sweatIndex": 122.6,
-      "precipitableWaterTotalCm": 3.57
+      "precipitableWaterTotalCm": 3.57,
+      "meanWindDirection5000to10000FtDeg": 321.9,
+      "meanWindSpeed5000to10000FtMs": 1.3,
+      "meanRh1000to5000FtPct": 71.8,
+      "meanRh5000to10000FtPct": 63.5,
+      "meanRh10000to15000FtPct": 90.8,
+      "meanRh20000to25000FtPct": 56.7
     },
     {
       "date": "2026-03-13",
@@ -1258,7 +2194,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.4,
       "kIndex": 37.1,
       "sweatIndex": 166.6,
-      "precipitableWaterTotalCm": 4.31
+      "precipitableWaterTotalCm": 4.31,
+      "meanWindDirection5000to10000FtDeg": 182.1,
+      "meanWindSpeed5000to10000FtMs": 1.9,
+      "meanRh1000to5000FtPct": 78.1,
+      "meanRh5000to10000FtPct": 92.4,
+      "meanRh10000to15000FtPct": 94.0,
+      "meanRh20000to25000FtPct": 82.5
     },
     {
       "date": "2026-03-14",
@@ -1266,7 +2208,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.6,
       "kIndex": 34.4,
       "sweatIndex": 162.0,
-      "precipitableWaterTotalCm": 3.77
+      "precipitableWaterTotalCm": 3.77,
+      "meanWindDirection5000to10000FtDeg": 186.3,
+      "meanWindSpeed5000to10000FtMs": 2.1,
+      "meanRh1000to5000FtPct": 76.9,
+      "meanRh5000to10000FtPct": 84.7,
+      "meanRh10000to15000FtPct": 51.9,
+      "meanRh20000to25000FtPct": 26.1
     },
     {
       "date": "2026-03-15",
@@ -1274,7 +2222,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 35.3,
       "sweatIndex": 174.4,
-      "precipitableWaterTotalCm": 3.78
+      "precipitableWaterTotalCm": 3.78,
+      "meanWindDirection5000to10000FtDeg": 202.5,
+      "meanWindSpeed5000to10000FtMs": 2.6,
+      "meanRh1000to5000FtPct": 66.8,
+      "meanRh5000to10000FtPct": 77.3,
+      "meanRh10000to15000FtPct": 89.1,
+      "meanRh20000to25000FtPct": 20.6
     },
     {
       "date": "2026-03-16",
@@ -1282,7 +2236,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.7,
       "kIndex": 34.7,
       "sweatIndex": 197.0,
-      "precipitableWaterTotalCm": 3.85
+      "precipitableWaterTotalCm": 3.85,
+      "meanWindDirection5000to10000FtDeg": 209.1,
+      "meanWindSpeed5000to10000FtMs": 4.0,
+      "meanRh1000to5000FtPct": 72.1,
+      "meanRh5000to10000FtPct": 83.7,
+      "meanRh10000to15000FtPct": 81.8,
+      "meanRh20000to25000FtPct": 20.8
     },
     {
       "date": "2026-03-17",
@@ -1290,7 +2250,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.7,
       "kIndex": 37.2,
       "sweatIndex": 197.0,
-      "precipitableWaterTotalCm": 3.86
+      "precipitableWaterTotalCm": 3.86,
+      "meanWindDirection5000to10000FtDeg": 232.4,
+      "meanWindSpeed5000to10000FtMs": 5.4,
+      "meanRh1000to5000FtPct": 75.9,
+      "meanRh5000to10000FtPct": 77.6,
+      "meanRh10000to15000FtPct": 76.0,
+      "meanRh20000to25000FtPct": 6.8
     },
     {
       "date": "2026-03-18",
@@ -1298,7 +2264,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.3,
       "kIndex": 31.3,
       "sweatIndex": 233.8,
-      "precipitableWaterTotalCm": 3.44
+      "precipitableWaterTotalCm": 3.44,
+      "meanWindDirection5000to10000FtDeg": 236.6,
+      "meanWindSpeed5000to10000FtMs": 3.8,
+      "meanRh1000to5000FtPct": 79.4,
+      "meanRh5000to10000FtPct": 69.0,
+      "meanRh10000to15000FtPct": 25.7,
+      "meanRh20000to25000FtPct": 18.6
     },
     {
       "date": "2026-03-19",
@@ -1306,7 +2278,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.8,
       "kIndex": 29.3,
       "sweatIndex": 189.4,
-      "precipitableWaterTotalCm": 3.22
+      "precipitableWaterTotalCm": 3.22,
+      "meanWindDirection5000to10000FtDeg": 241.7,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 66.3,
+      "meanRh5000to10000FtPct": 60.5,
+      "meanRh10000to15000FtPct": 29.0,
+      "meanRh20000to25000FtPct": 24.1
     },
     {
       "date": "2026-03-20",
@@ -1314,7 +2292,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.1,
       "kIndex": 21.3,
       "sweatIndex": 198.6,
-      "precipitableWaterTotalCm": 3.61
+      "precipitableWaterTotalCm": 3.61,
+      "meanWindDirection5000to10000FtDeg": 230.0,
+      "meanWindSpeed5000to10000FtMs": 6.2,
+      "meanRh1000to5000FtPct": 65.2,
+      "meanRh5000to10000FtPct": 59.5,
+      "meanRh10000to15000FtPct": 28.4,
+      "meanRh20000to25000FtPct": 52.6
     },
     {
       "date": "2026-03-21",
@@ -1322,7 +2306,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.3,
       "kIndex": 27.5,
       "sweatIndex": 217.0,
-      "precipitableWaterTotalCm": 4.04
+      "precipitableWaterTotalCm": 4.04,
+      "meanWindDirection5000to10000FtDeg": 170.0,
+      "meanWindSpeed5000to10000FtMs": 3.1,
+      "meanRh1000to5000FtPct": 75.1,
+      "meanRh5000to10000FtPct": 56.8,
+      "meanRh10000to15000FtPct": 45.7,
+      "meanRh20000to25000FtPct": 39.5
     },
     {
       "date": "2026-03-22",
@@ -1330,7 +2320,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.3,
       "kIndex": 37.3,
       "sweatIndex": 368.9,
-      "precipitableWaterTotalCm": 4.57
+      "precipitableWaterTotalCm": 4.57,
+      "meanWindDirection5000to10000FtDeg": 218.0,
+      "meanWindSpeed5000to10000FtMs": 8.0,
+      "meanRh1000to5000FtPct": 78.0,
+      "meanRh5000to10000FtPct": 85.5,
+      "meanRh10000to15000FtPct": 71.5,
+      "meanRh20000to25000FtPct": 14.5
     },
     {
       "date": "2026-03-23",
@@ -1338,7 +2334,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.5,
       "kIndex": 23.1,
       "sweatIndex": 167.0,
-      "precipitableWaterTotalCm": 3.2
+      "precipitableWaterTotalCm": 3.2,
+      "meanWindDirection5000to10000FtDeg": 215.0,
+      "meanWindSpeed5000to10000FtMs": 8.4,
+      "meanRh1000to5000FtPct": 68.4,
+      "meanRh5000to10000FtPct": 77.0,
+      "meanRh10000to15000FtPct": 20.1,
+      "meanRh20000to25000FtPct": 14.6
     },
     {
       "date": "2026-03-24",
@@ -1346,7 +2348,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.5,
       "kIndex": 4.7,
       "sweatIndex": 233.4,
-      "precipitableWaterTotalCm": 2.55
+      "precipitableWaterTotalCm": 2.55,
+      "meanWindDirection5000to10000FtDeg": 233.4,
+      "meanWindSpeed5000to10000FtMs": 10.9,
+      "meanRh1000to5000FtPct": 53.1,
+      "meanRh5000to10000FtPct": 56.8,
+      "meanRh10000to15000FtPct": 11.5,
+      "meanRh20000to25000FtPct": 8.8
     },
     {
       "date": "2026-03-25",
@@ -1354,7 +2362,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.5,
       "kIndex": 27.1,
       "sweatIndex": 189.4,
-      "precipitableWaterTotalCm": 3.45
+      "precipitableWaterTotalCm": 3.45,
+      "meanWindDirection5000to10000FtDeg": 212.7,
+      "meanWindSpeed5000to10000FtMs": 8.2,
+      "meanRh1000to5000FtPct": 58.1,
+      "meanRh5000to10000FtPct": 80.5,
+      "meanRh10000to15000FtPct": 28.2,
+      "meanRh20000to25000FtPct": 8.0
     },
     {
       "date": "2026-03-26",
@@ -1362,7 +2376,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 6.5,
       "kIndex": 9.1,
       "sweatIndex": 103.4,
-      "precipitableWaterTotalCm": 2.74
+      "precipitableWaterTotalCm": 2.74,
+      "meanWindDirection5000to10000FtDeg": 225.0,
+      "meanWindSpeed5000to10000FtMs": 5.7,
+      "meanRh1000to5000FtPct": 47.9,
+      "meanRh5000to10000FtPct": 73.6,
+      "meanRh10000to15000FtPct": 14.8,
+      "meanRh20000to25000FtPct": 6.8
     },
     {
       "date": "2026-03-27",
@@ -1370,7 +2390,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.4,
       "kIndex": 9.1,
       "sweatIndex": 296.3,
-      "precipitableWaterTotalCm": 3.03
+      "precipitableWaterTotalCm": 3.03,
+      "meanWindDirection5000to10000FtDeg": 220.0,
+      "meanWindSpeed5000to10000FtMs": 7.7,
+      "meanRh1000to5000FtPct": 57.0,
+      "meanRh5000to10000FtPct": 42.5,
+      "meanRh10000to15000FtPct": 14.8,
+      "meanRh20000to25000FtPct": 11.2
     },
     {
       "date": "2026-03-28",
@@ -1378,7 +2404,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.5,
       "kIndex": 20.7,
       "sweatIndex": 170.2,
-      "precipitableWaterTotalCm": 3.6
+      "precipitableWaterTotalCm": 3.6,
+      "meanWindDirection5000to10000FtDeg": 205.0,
+      "meanWindSpeed5000to10000FtMs": 8.5,
+      "meanRh1000to5000FtPct": 59.9,
+      "meanRh5000to10000FtPct": 60.2,
+      "meanRh10000to15000FtPct": 38.4,
+      "meanRh20000to25000FtPct": 24.9
     },
     {
       "date": "2026-03-29",
@@ -1386,7 +2418,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -4.1,
       "kIndex": 35.1,
       "sweatIndex": 320.8,
-      "precipitableWaterTotalCm": 3.57
+      "precipitableWaterTotalCm": 3.57,
+      "meanWindDirection5000to10000FtDeg": 229.7,
+      "meanWindSpeed5000to10000FtMs": 9.7,
+      "meanRh1000to5000FtPct": 67.6,
+      "meanRh5000to10000FtPct": 63.1,
+      "meanRh10000to15000FtPct": 41.8,
+      "meanRh20000to25000FtPct": 5.5
     },
     {
       "date": "2026-03-30",
@@ -1394,7 +2432,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.3,
       "kIndex": 23.3,
       "sweatIndex": 167.6,
-      "precipitableWaterTotalCm": 3.2
+      "precipitableWaterTotalCm": 3.2,
+      "meanWindDirection5000to10000FtDeg": 249.1,
+      "meanWindSpeed5000to10000FtMs": 4.4,
+      "meanRh1000to5000FtPct": 64.6,
+      "meanRh5000to10000FtPct": 56.8,
+      "meanRh10000to15000FtPct": 21.6,
+      "meanRh20000to25000FtPct": 18.5
     },
     {
       "date": "2026-03-31",
@@ -1402,7 +2446,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.3,
       "kIndex": 27.3,
       "sweatIndex": 157.0,
-      "precipitableWaterTotalCm": 3.03
+      "precipitableWaterTotalCm": 3.03,
+      "meanWindDirection5000to10000FtDeg": 302.6,
+      "meanWindSpeed5000to10000FtMs": 6.4,
+      "meanRh1000to5000FtPct": 63.7,
+      "meanRh5000to10000FtPct": 44.0,
+      "meanRh10000to15000FtPct": 33.2,
+      "meanRh20000to25000FtPct": 12.6
     },
     {
       "date": "2026-05-01",
@@ -1410,7 +2460,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 2.2,
       "kIndex": 32.1,
       "sweatIndex": 209.0,
-      "precipitableWaterTotalCm": 4.76
+      "precipitableWaterTotalCm": 4.76,
+      "meanWindDirection5000to10000FtDeg": 195.0,
+      "meanWindSpeed5000to10000FtMs": 7.7,
+      "meanRh1000to5000FtPct": 79.8,
+      "meanRh5000to10000FtPct": 71.8,
+      "meanRh10000to15000FtPct": 50.2,
+      "meanRh20000to25000FtPct": 43.1
     },
     {
       "date": "2026-05-02",
@@ -1418,7 +2474,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.8,
       "kIndex": 25.3,
       "sweatIndex": 172.0,
-      "precipitableWaterTotalCm": 3.82
+      "precipitableWaterTotalCm": 3.82,
+      "meanWindDirection5000to10000FtDeg": 237.3,
+      "meanWindSpeed5000to10000FtMs": 8.2,
+      "meanRh1000to5000FtPct": 64.1,
+      "meanRh5000to10000FtPct": 54.5,
+      "meanRh10000to15000FtPct": 32.8,
+      "meanRh20000to25000FtPct": 33.4
     },
     {
       "date": "2026-05-03",
@@ -1426,7 +2488,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 4.3,
       "kIndex": 30.4,
       "sweatIndex": 148.2,
-      "precipitableWaterTotalCm": 4.15
+      "precipitableWaterTotalCm": 4.15,
+      "meanWindDirection5000to10000FtDeg": 232.3,
+      "meanWindSpeed5000to10000FtMs": 9.0,
+      "meanRh1000to5000FtPct": 64.9,
+      "meanRh5000to10000FtPct": 52.5,
+      "meanRh10000to15000FtPct": 70.1,
+      "meanRh20000to25000FtPct": 63.4
     },
     {
       "date": "2026-05-04",
@@ -1434,7 +2502,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.2,
       "kIndex": 39.6,
       "sweatIndex": 208.4,
-      "precipitableWaterTotalCm": 4.94
+      "precipitableWaterTotalCm": 4.94,
+      "meanWindDirection5000to10000FtDeg": 255.0,
+      "meanWindSpeed5000to10000FtMs": 3.6,
+      "meanRh1000to5000FtPct": 60.4,
+      "meanRh5000to10000FtPct": 91.2,
+      "meanRh10000to15000FtPct": 80.0,
+      "meanRh20000to25000FtPct": 58.3
     },
     {
       "date": "2026-05-05",
@@ -1442,7 +2516,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.9,
       "kIndex": 41.5,
       "sweatIndex": 264.4,
-      "precipitableWaterTotalCm": 5.72
+      "precipitableWaterTotalCm": 5.72,
+      "meanWindDirection5000to10000FtDeg": 199.3,
+      "meanWindSpeed5000to10000FtMs": 4.6,
+      "meanRh1000to5000FtPct": 91.1,
+      "meanRh5000to10000FtPct": 88.0,
+      "meanRh10000to15000FtPct": 83.7,
+      "meanRh20000to25000FtPct": 47.5
     },
     {
       "date": "2026-05-06",
@@ -1450,7 +2530,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.1,
       "kIndex": 38.4,
       "sweatIndex": 237.6,
-      "precipitableWaterTotalCm": 5.69
+      "precipitableWaterTotalCm": 5.69,
+      "meanWindDirection5000to10000FtDeg": 269.4,
+      "meanWindSpeed5000to10000FtMs": 4.6,
+      "meanRh1000to5000FtPct": 86.0,
+      "meanRh5000to10000FtPct": 79.9,
+      "meanRh10000to15000FtPct": 79.0,
+      "meanRh20000to25000FtPct": 64.9
     },
     {
       "date": "2026-05-07",
@@ -1458,7 +2544,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.4,
       "kIndex": 40.0,
       "sweatIndex": 237.6,
-      "precipitableWaterTotalCm": 5.82
+      "precipitableWaterTotalCm": 5.82,
+      "meanWindDirection5000to10000FtDeg": 225.0,
+      "meanWindSpeed5000to10000FtMs": 3.1,
+      "meanRh1000to5000FtPct": 79.4,
+      "meanRh5000to10000FtPct": 71.3,
+      "meanRh10000to15000FtPct": 79.7,
+      "meanRh20000to25000FtPct": 96.2
     },
     {
       "date": "2026-05-08",
@@ -1466,7 +2558,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.2,
       "kIndex": 39.7,
       "sweatIndex": 226.6,
-      "precipitableWaterTotalCm": 5.69
+      "precipitableWaterTotalCm": 5.69,
+      "meanWindDirection5000to10000FtDeg": 277.7,
+      "meanWindSpeed5000to10000FtMs": 1.4,
+      "meanRh1000to5000FtPct": 72.2,
+      "meanRh5000to10000FtPct": 77.8,
+      "meanRh10000to15000FtPct": 84.5,
+      "meanRh20000to25000FtPct": 74.1
     },
     {
       "date": "2026-05-09",
@@ -1474,7 +2572,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.0,
       "kIndex": 40.0,
       "sweatIndex": 231.6,
-      "precipitableWaterTotalCm": 6.35
+      "precipitableWaterTotalCm": 6.35,
+      "meanWindDirection5000to10000FtDeg": 146.8,
+      "meanWindSpeed5000to10000FtMs": 2.2,
+      "meanRh1000to5000FtPct": 88.4,
+      "meanRh5000to10000FtPct": 88.8,
+      "meanRh10000to15000FtPct": 98.0,
+      "meanRh20000to25000FtPct": 89.5
     },
     {
       "date": "2026-05-10",
@@ -1482,7 +2586,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.0,
       "kIndex": 40.1,
       "sweatIndex": 237.0,
-      "precipitableWaterTotalCm": 6.1
+      "precipitableWaterTotalCm": 6.1,
+      "meanWindDirection5000to10000FtDeg": 205.0,
+      "meanWindSpeed5000to10000FtMs": 7.2,
+      "meanRh1000to5000FtPct": 84.9,
+      "meanRh5000to10000FtPct": 93.6,
+      "meanRh10000to15000FtPct": 93.7,
+      "meanRh20000to25000FtPct": 84.8
     },
     {
       "date": "2026-05-11",
@@ -1490,7 +2600,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.2,
       "kIndex": 39.4,
       "sweatIndex": 252.4,
-      "precipitableWaterTotalCm": 5.76
+      "precipitableWaterTotalCm": 5.76,
+      "meanWindDirection5000to10000FtDeg": 185.0,
+      "meanWindSpeed5000to10000FtMs": 6.9,
+      "meanRh1000to5000FtPct": 86.5,
+      "meanRh5000to10000FtPct": 78.6,
+      "meanRh10000to15000FtPct": 89.1,
+      "meanRh20000to25000FtPct": 72.3
     },
     {
       "date": "2026-05-12",
@@ -1498,7 +2614,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.1,
       "kIndex": 35.6,
       "sweatIndex": 250.2,
-      "precipitableWaterTotalCm": 6.02
+      "precipitableWaterTotalCm": 6.02,
+      "meanWindDirection5000to10000FtDeg": 240.0,
+      "meanWindSpeed5000to10000FtMs": 7.1,
+      "meanRh1000to5000FtPct": 83.4,
+      "meanRh5000to10000FtPct": 93.8,
+      "meanRh10000to15000FtPct": 82.1,
+      "meanRh20000to25000FtPct": 81.4
     },
     {
       "date": "2026-05-13",
@@ -1506,7 +2628,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.7,
       "kIndex": 39.0,
       "sweatIndex": 255.6,
-      "precipitableWaterTotalCm": 6.12
+      "precipitableWaterTotalCm": 6.12,
+      "meanWindDirection5000to10000FtDeg": 244.6,
+      "meanWindSpeed5000to10000FtMs": 6.7,
+      "meanRh1000to5000FtPct": 94.2,
+      "meanRh5000to10000FtPct": 87.4,
+      "meanRh10000to15000FtPct": 78.6,
+      "meanRh20000to25000FtPct": 85.0
     },
     {
       "date": "2026-05-14",
@@ -1514,7 +2642,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.1,
       "kIndex": 38.7,
       "sweatIndex": 252.6,
-      "precipitableWaterTotalCm": 6.59
+      "precipitableWaterTotalCm": 6.59,
+      "meanWindDirection5000to10000FtDeg": 270.0,
+      "meanWindSpeed5000to10000FtMs": 6.7,
+      "meanRh1000to5000FtPct": 95.8,
+      "meanRh5000to10000FtPct": 82.4,
+      "meanRh10000to15000FtPct": 87.5,
+      "meanRh20000to25000FtPct": 82.2
     },
     {
       "date": "2026-05-15",
@@ -1522,7 +2656,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.8,
       "kIndex": 34.6,
       "sweatIndex": 252.6,
-      "precipitableWaterTotalCm": 6.56
+      "precipitableWaterTotalCm": 6.56,
+      "meanWindDirection5000to10000FtDeg": 240.0,
+      "meanWindSpeed5000to10000FtMs": 10.8,
+      "meanRh1000to5000FtPct": 94.6,
+      "meanRh5000to10000FtPct": 76.3,
+      "meanRh10000to15000FtPct": 78.0,
+      "meanRh20000to25000FtPct": 92.4
     },
     {
       "date": "2026-05-16",
@@ -1530,7 +2670,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.9,
       "kIndex": 35.9,
       "sweatIndex": 250.0,
-      "precipitableWaterTotalCm": 6.35
+      "precipitableWaterTotalCm": 6.35,
+      "meanWindDirection5000to10000FtDeg": 278.2,
+      "meanWindSpeed5000to10000FtMs": 6.6,
+      "meanRh1000to5000FtPct": 91.1,
+      "meanRh5000to10000FtPct": 84.3,
+      "meanRh10000to15000FtPct": 80.4,
+      "meanRh20000to25000FtPct": 74.2
     },
     {
       "date": "2026-05-17",
@@ -1538,7 +2684,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 0.6,
       "kIndex": 35.3,
       "sweatIndex": 213.2,
-      "precipitableWaterTotalCm": 5.33
+      "precipitableWaterTotalCm": 5.33,
+      "meanWindDirection5000to10000FtDeg": 290.0,
+      "meanWindSpeed5000to10000FtMs": 1.0,
+      "meanRh1000to5000FtPct": 86.2,
+      "meanRh5000to10000FtPct": 80.9,
+      "meanRh10000to15000FtPct": 56.2,
+      "meanRh20000to25000FtPct": 24.4
     },
     {
       "date": "2026-05-18",
@@ -1546,7 +2698,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.8,
       "kIndex": 39.8,
       "sweatIndex": 254.0,
-      "precipitableWaterTotalCm": 5.81
+      "precipitableWaterTotalCm": 5.81,
+      "meanWindDirection5000to10000FtDeg": 230.0,
+      "meanWindSpeed5000to10000FtMs": 1.0,
+      "meanRh1000to5000FtPct": 92.3,
+      "meanRh5000to10000FtPct": 91.3,
+      "meanRh10000to15000FtPct": 64.0,
+      "meanRh20000to25000FtPct": 37.0
     },
     {
       "date": "2026-05-19",
@@ -1554,7 +2712,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.0,
       "kIndex": 36.8,
       "sweatIndex": 243.4,
-      "precipitableWaterTotalCm": 6.55
+      "precipitableWaterTotalCm": 6.55,
+      "meanWindDirection5000to10000FtDeg": 2.9,
+      "meanWindSpeed5000to10000FtMs": 3.5,
+      "meanRh1000to5000FtPct": 97.0,
+      "meanRh5000to10000FtPct": 75.4,
+      "meanRh10000to15000FtPct": 76.7,
+      "meanRh20000to25000FtPct": 65.3
     },
     {
       "date": "2026-05-20",
@@ -1562,7 +2726,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.3,
       "kIndex": 40.6,
       "sweatIndex": 227.4,
-      "precipitableWaterTotalCm": 6.68
+      "precipitableWaterTotalCm": 6.68,
+      "meanWindDirection5000to10000FtDeg": 17.1,
+      "meanWindSpeed5000to10000FtMs": 3.3,
+      "meanRh1000to5000FtPct": 92.6,
+      "meanRh5000to10000FtPct": 88.0,
+      "meanRh10000to15000FtPct": 85.1,
+      "meanRh20000to25000FtPct": 80.6
     },
     {
       "date": "2026-05-21",
@@ -1570,7 +2740,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": 1.0,
       "kIndex": 37.1,
       "sweatIndex": 216.4,
-      "precipitableWaterTotalCm": 6.58
+      "precipitableWaterTotalCm": 6.58,
+      "meanWindDirection5000to10000FtDeg": 307.1,
+      "meanWindSpeed5000to10000FtMs": 4.4,
+      "meanRh1000to5000FtPct": 88.8,
+      "meanRh5000to10000FtPct": 87.6,
+      "meanRh10000to15000FtPct": 85.6,
+      "meanRh20000to25000FtPct": 87.0
     },
     {
       "date": "2026-05-22",
@@ -1578,7 +2754,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.4,
       "kIndex": 36.5,
       "sweatIndex": 263.0,
-      "precipitableWaterTotalCm": 6.54
+      "precipitableWaterTotalCm": 6.54,
+      "meanWindDirection5000to10000FtDeg": 235.0,
+      "meanWindSpeed5000to10000FtMs": 5.1,
+      "meanRh1000to5000FtPct": 97.5,
+      "meanRh5000to10000FtPct": 84.4,
+      "meanRh10000to15000FtPct": 76.0,
+      "meanRh20000to25000FtPct": 72.0
     },
     {
       "date": "2026-05-23",
@@ -1586,7 +2768,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.9,
       "kIndex": 35.8,
       "sweatIndex": 261.4,
-      "precipitableWaterTotalCm": 6.62
+      "precipitableWaterTotalCm": 6.62,
+      "meanWindDirection5000to10000FtDeg": 242.1,
+      "meanWindSpeed5000to10000FtMs": 11.1,
+      "meanRh1000to5000FtPct": 97.9,
+      "meanRh5000to10000FtPct": 81.3,
+      "meanRh10000to15000FtPct": 79.7,
+      "meanRh20000to25000FtPct": 100.0
     },
     {
       "date": "2026-05-24",
@@ -1594,7 +2782,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -2.2,
       "kIndex": 37.9,
       "sweatIndex": 268.6,
-      "precipitableWaterTotalCm": 6.45
+      "precipitableWaterTotalCm": 6.45,
+      "meanWindDirection5000to10000FtDeg": 230.0,
+      "meanWindSpeed5000to10000FtMs": 9.3,
+      "meanRh1000to5000FtPct": 92.8,
+      "meanRh5000to10000FtPct": 91.5,
+      "meanRh10000to15000FtPct": 71.6,
+      "meanRh20000to25000FtPct": 66.9
     },
     {
       "date": "2026-05-25",
@@ -1602,7 +2796,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -1.2,
       "kIndex": 39.5,
       "sweatIndex": 247.8,
-      "precipitableWaterTotalCm": 6.13
+      "precipitableWaterTotalCm": 6.13,
+      "meanWindDirection5000to10000FtDeg": 240.8,
+      "meanWindSpeed5000to10000FtMs": 11.0,
+      "meanRh1000to5000FtPct": 90.4,
+      "meanRh5000to10000FtPct": 71.7,
+      "meanRh10000to15000FtPct": 81.9,
+      "meanRh20000to25000FtPct": 62.5
     },
     {
       "date": "2026-05-26",
@@ -1610,7 +2810,13 @@ window.TAKHLI_00Z_DATA = {
       "showalterIndex": -0.6,
       "kIndex": 35.4,
       "sweatIndex": 247.2,
-      "precipitableWaterTotalCm": 5.87
+      "precipitableWaterTotalCm": 5.87,
+      "meanWindDirection5000to10000FtDeg": 260.0,
+      "meanWindSpeed5000to10000FtMs": 7.7,
+      "meanRh1000to5000FtPct": 90.8,
+      "meanRh5000to10000FtPct": 82.2,
+      "meanRh10000to15000FtPct": 69.2,
+      "meanRh20000to25000FtPct": 55.7
     }
   ]
 };

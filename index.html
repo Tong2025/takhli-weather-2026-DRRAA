@@ -60,13 +60,27 @@
     .legend-line { display:inline-block; width:25px; height:0; border-top:2px dashed #4b0082; }
     .legend-threshold { display:inline-block; width:25px; height:0; border-top:1.5px solid #f08080; }
     .season-chip { display:inline-block; width:11px; height:11px; border-radius:3px; }
+    .wind-rose-wrap { width:min(calc(100% - 26px),840px); margin:11px auto 0; }
+    .rose-footer { width:min(100%,880px); margin:0 auto; padding:14px 18px 17px; color:#c4cee0; }
+    .rose-legend { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:9px; }
+    .rose-legend-item { display:flex; align-items:center; gap:7px; min-width:0; color:#e3eaf4; font-size:12px; white-space:nowrap; }
+    .rose-swatch { width:12px; height:12px; flex:none; border-radius:3px; }
+    .rose-notes { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px 16px; margin-top:13px; padding-top:11px; border-top:1px solid #29384d; color:#9eacc0; font-size:12px; }
+    .rose-note:last-child { grid-column:1 / -1; }
+    .rose-note strong { color:#e4eaf4; font-weight:650; }
+    .layer-controls { display:flex; flex-wrap:wrap; gap:8px; padding:12px 18px 0; }
+    .layer-toggle { display:inline-flex; align-items:center; gap:8px; border:1px solid #34445d; border-radius:9px; padding:7px 10px; background:#162237; color:#d8e2f0; font:inherit; font-size:12px; cursor:pointer; }
+    .layer-toggle[aria-pressed="true"] { border-color:#617b9f; background:#23344c; color:#fff; }
+    .layer-toggle[aria-pressed="false"] { opacity:.62; }
+    .layer-swatch { width:11px; height:11px; flex:none; border-radius:50%; }
+    .layer-empty { fill:#69778b; font-size:15px; }
     .point:focus { outline:none; stroke:#fff; stroke-width:3; }
     .tooltip { position:absolute; z-index:2; display:none; min-width:130px; pointer-events:none; border:1px solid #425574; border-radius:9px; padding:8px 10px; background:#0c1421f2; box-shadow:0 8px 24px #0006; font-size:12px; }
     .tip-date { color:#b8c7dc; }
     .tip-value { margin-top:2px; font-weight:750; font-variant-numeric:tabular-nums; }
     .error { display:none; padding:18px; border:1px solid #8c4d4d; border-radius:12px; background:#3b2026; color:#ffd8d8; }
     @media (max-width:850px) { .metric-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
-    @media (max-width:600px) { main { width:min(100% - 24px,600px); padding-top:30px; } .topline { align-items:flex-start; flex-direction:column; } .dashboard { padding:16px; margin:22px 0 32px; } .stats { grid-template-columns:1fr; } .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .metric-card:last-child { grid-column:1 / -1; } .download { padding:8px 12px; } .tablist { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); width:100%; } .plot-tab { padding:9px 7px; } .plots-head { align-items:flex-start; } .station-picker { align-items:flex-start; flex-direction:column; gap:7px; } }
+    @media (max-width:600px) { main { width:min(100% - 24px,600px); padding-top:30px; } .topline { align-items:flex-start; flex-direction:column; } .dashboard { padding:16px; margin:22px 0 32px; } .stats { grid-template-columns:1fr; } .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .metric-card:last-child { grid-column:1 / -1; } .download { padding:8px 12px; } .tablist { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); width:100%; } .plot-tab { padding:9px 7px; } .plots-head { align-items:flex-start; } .station-picker { align-items:flex-start; flex-direction:column; gap:7px; } .rose-legend { grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px 5px; } .rose-legend-item { gap:5px; font-size:11px; } .rose-footer { padding:12px 13px 15px; } .rose-notes { grid-template-columns:1fr; gap:7px; font-size:11px; } .rose-note:last-child { grid-column:auto; } .layer-controls { padding:10px 13px 0; gap:6px; } .layer-toggle { padding:7px 8px; font-size:11px; } }
   </style>
 </head>
 <body>
@@ -105,17 +119,130 @@
       { key:'kIndex', short:'KI', dashTitle:'K Index', title:'K Index; KI', precision:1, threshold:15, thresholdLabel:'KI < 15 · ไม่มีโอกาสเกิดฝนฟ้าคะนอง' },
       { key:'sweatIndex', short:'SWEAT', dashTitle:'SWEAT Index', title:'Severe Weather Threat Index; SWEAT', precision:1, range:[0,500], threshold:199, thresholdLabel:'SWEAT ≤ 199 · ไม่มีโอกาสพัฒนาเป็นพายุ' },
       { key:'precipitableWaterTotalCm', short:'PW', dashTitle:'Precipitable Water Total', title:'Precipitable Water; PW', unit:'cm', precision:2, range:[-1,7], threshold:3.8, thresholdLabel:'PW > 3.8 cm · เกณฑ์ปริมาณน้ำในบรรยากาศ' },
+      { key:'meanRh5000to10000FtPct', short:'RH', dashTitle:'Mean RH · 5,000–10,000 ft', title:'Mean Relative Humidity; 5,000–10,000 ft', unit:'%', precision:1, range:[0,100] },
+      { key:'meanWindDirection5000to10000FtDeg', short:'ทิศลม', dashTitle:'Mean Wind Direction · 5,000–10,000 ft', title:'Mean Wind Direction; 5,000–10,000 ft', unit:'°', precision:1, range:[0,360], connect:false },
+      { key:'meanWindSpeed5000to10000FtMs', short:'เร็วลม', dashTitle:'Mean Wind Speed · 5,000–10,000 ft', title:'Mean Wind Speed; 5,000–10,000 ft', unit:'m/s', precision:1, range:[0,25] },
     ];
+    const plotItems=series.filter(item=>!['meanWindDirection5000to10000FtDeg','meanWindSpeed5000to10000FtMs'].includes(item.key));
+    plotItems.push({key:'rhLayers',short:'RH หลายชั้น',title:'Mean RH · ทุกชั้นความสูง',type:'rhLayers'});
+    plotItems.push({key:'windRose',short:'Wind Rose',title:'Wind Rose · Mean Wind 5,000–10,000 ft',type:'windRose',unit:'% of soundings'});
     const dateFmt = new Intl.DateTimeFormat('th-TH-u-ca-buddhist',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
     const monthFmt = new Intl.DateTimeFormat('th-TH-u-ca-buddhist',{month:'short',timeZone:'UTC'});
     const numberFmt = (n,p) => Number(n).toLocaleString('en-US',{minimumFractionDigits:p,maximumFractionDigits:p});
     const svgEl = (name, attrs={}) => { const el=document.createElementNS('http://www.w3.org/2000/svg',name); for(const [k,v] of Object.entries(attrs)) el.setAttribute(k,v); return el; };
     const dateValue = s => Date.parse(`${s}T00:00:00Z`);
+    function renderWindRose(station) {
+      const dirKey='meanWindDirection5000to10000FtDeg', speedKey='meanWindSpeed5000to10000FtMs', calmLimit=.5;
+      const observations=station.records.filter(row=>Number.isFinite(row[dirKey])&&Number.isFinite(row[speedKey]));
+      const calm=observations.filter(row=>row[speedKey]<calmLimit).length;
+      const directional=observations.filter(row=>row[speedKey]>=calmLimit);
+      const bins=[
+        {label:'0–2',min:.5,max:2,color:'#c6dbef'},
+        {label:'2–4',min:2,max:4,color:'#6baed6'},
+        {label:'4–6',min:4,max:6,color:'#3182bd'},
+        {label:'6–8',min:6,max:8,color:'#31a354'},
+        {label:'8–10',min:8,max:10,color:'#fec44f'},
+        {label:'≥10',min:10,max:Infinity,color:'#e34a33'},
+      ];
+      const directions=['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSW','SW','WSW','W','WNW','NW','NNW'];
+      const sectors=Array.from({length:16},()=>bins.map(()=>0));
+      for(const row of directional){const bearing=((row[dirKey]%360)+360)%360;const sector=Math.floor((bearing+11.25)/22.5)%16;const bin=bins.findIndex(item=>row[speedKey]>=item.min&&row[speedKey]<item.max);if(bin>=0)sectors[sector][bin]++;}
+      const totals=sectors.map(values=>values.reduce((sum,value)=>sum+value,0));
+      const peakPct=observations.length?Math.max(...totals)/observations.length*100:0;
+      const interval=peakPct<=20?5:peakPct<=50?10:20;
+      const scaleMax=Math.max(interval,Math.ceil(peakPct/interval)*interval);
+      const W=720,H=500,cx=360,cy=238,R=178;
+      const svg=svgEl('svg',{viewBox:`0 0 ${W} ${H}`,role:'img',class:'wind-rose-svg','aria-label':`Wind Rose ของสถานี${station.name} แสดงความถี่ทิศทางและช่วงความเร็วลมที่ระดับ 5,000–10,000 ฟุต`});
+      const polar=(radius,angle)=>({x:cx+radius*Math.sin(angle*Math.PI/180),y:cy-radius*Math.cos(angle*Math.PI/180)});
+      const grid=svgEl('g');
+      const ringCount=scaleMax/interval;
+      for(let ring=1;ring<=ringCount;ring++){const radius=R*ring/ringCount;grid.append(svgEl('circle',{cx,cy,r:radius,fill:'none',stroke:'#cad3df','stroke-width':ring===ringCount?1.4:1}));const value=interval*ring;const label=svgEl('text',{x:cx+5,y:cy-radius-3,'text-anchor':'start',class:'axis-label'});label.textContent=`${numberFmt(value,0)}%`;grid.append(label);}
+      for(let i=0;i<16;i++){const angle=i*22.5;const end=polar(R,angle);grid.append(svgEl('line',{x1:cx,y1:cy,x2:end.x,y2:end.y,stroke:'#e0e5ec','stroke-width':'.8'}));}
+      svg.append(grid);
+      for(let sector=0;sector<16;sector++){
+        const start=sector*22.5-11.25+.65,end=sector*22.5+11.25-.65;
+        let cumulative=0;
+        for(let bin=0;bin<bins.length;bin++){
+          const count=sectors[sector][bin];if(!count)continue;
+          const inner=R*(cumulative/observations.length*100)/scaleMax;
+          cumulative+=count;
+          const outer=R*(cumulative/observations.length*100)/scaleMax;
+          const a=polar(outer,start),b=polar(outer,end),c=polar(inner,end),d=polar(inner,start);
+          let path;
+          if(inner<.01)path=`M ${cx} ${cy} L ${a.x} ${a.y} A ${outer} ${outer} 0 0 1 ${b.x} ${b.y} Z`;
+          else path=`M ${d.x} ${d.y} L ${a.x} ${a.y} A ${outer} ${outer} 0 0 1 ${b.x} ${b.y} L ${c.x} ${c.y} A ${inner} ${inner} 0 0 0 ${d.x} ${d.y} Z`;
+          const shape=svgEl('path',{d:path,fill:bins[bin].color,stroke:'#fff','stroke-width':'1'});
+          const title=svgEl('title');title.textContent=`${directions[sector]} · ${bins[bin].label} m/s: ${count} ครั้ง (${numberFmt(count/observations.length*100,1)}%)`;shape.append(title);svg.append(shape);
+        }
+      }
+      const compassLabels=[['N',0],['NE',45],['E',90],['SE',135],['S',180],['SW',225],['W',270],['NW',315]];
+      for(const [label,angle] of compassLabels){const p=polar(R+27,angle);const text=svgEl('text',{x:p.x,y:p.y+4,'text-anchor':'middle',class:'axis-label','font-weight':'700'});text.textContent=label;svg.append(text);}
+      const card=document.createElement('article');card.className='chart-card';
+      const head=document.createElement('div');head.className='card-head';const title=document.createElement('h2');title.textContent=`Wind Rose · ${station.name}`;const unit=document.createElement('span');unit.className='unit';unit.textContent='% ของ sounding';head.append(title,unit);
+      const wrap=document.createElement('div');wrap.className='chart-wrap wind-rose-wrap';wrap.append(svg);
+      const footer=document.createElement('div');footer.className='rose-footer';
+      const legend=document.createElement('div');legend.className='rose-legend';legend.setAttribute('aria-label','ช่วงความเร็วลม');
+      for(const bin of bins){const entry=document.createElement('span');entry.className='rose-legend-item';const swatch=document.createElement('i');swatch.className='rose-swatch';swatch.style.background=bin.color;const label=document.createElement('span');label.textContent=`${bin.label} m/s`;entry.append(swatch,label);legend.append(entry);}
+      const notes=document.createElement('div');notes.className='rose-notes';
+      const addNote=(label,value)=>{const note=document.createElement('div');note.className='rose-note';note.append(document.createTextNode(`${label} `));const strong=document.createElement('strong');strong.textContent=value;note.append(strong);notes.append(note);};
+      addNote('จำนวนข้อมูล','N = '+observations.length+' soundings');
+      addNote('ลมสงบ (< 0.5 m/s)',`${calm} ครั้ง · ${observations.length?numberFmt(calm/observations.length*100,1):'0.0'}%`);
+      addNote('การอ่านทิศทาง','แบ่ง 16 ทิศ ช่องละ 22.5° · แสดงทิศที่ลมพัดมาจาก');
+      footer.append(legend,notes);
+      card.append(head,wrap,footer);return card;
+    }
+    function renderRhLayers(station, stations) {
+      const layers=[
+        {key:'meanRh1000to5000FtPct',label:'MEAN RH · 1,000–5,000 ft',color:'#2563eb',dash:''},
+        {key:'meanRh5000to10000FtPct',label:'MEAN RH · 5,000–10,000 ft',color:'#dc2626',dash:'8 4'},
+        {key:'meanRh10000to15000FtPct',label:'MEAN RH · 10,000–15,000 ft',color:'#059669',dash:'2 3'},
+        {key:'meanRh20000to25000FtPct',label:'MEAN RH · 20,000–25,000 ft',color:'#7c3aed',dash:'8 3 2 3'},
+      ];
+      const active=new Set(layers.map(layer=>layer.key));
+      const W=900,H=380,L=75,R=18,T=20,B=55,plotW=W-L-R,plotH=H-T-B;
+      const dates=stations.flatMap(source=>source.records.map(row=>row.date)).sort();
+      const minDate=dateValue(dates[0]),maxDate=dateValue(dates.at(-1)),span=Math.max(1,maxDate-minDate);
+      const x=row=>L+(dateValue(row.date)-minDate)/span*plotW;
+      const y=value=>T+(100-value)/100*plotH;
+      const card=document.createElement('article');card.className='chart-card';
+      const head=document.createElement('div');head.className='card-head';const title=document.createElement('h2');title.textContent=`Mean RH by Layer · ${station.name}`;const unit=document.createElement('span');unit.className='unit';unit.textContent='RH (%)';head.append(title,unit);
+      const controls=document.createElement('div');controls.className='layer-controls';controls.setAttribute('role','group');controls.setAttribute('aria-label','เลือกชั้นความชื้นสัมพัทธ์');
+      const wrap=document.createElement('div');wrap.className='chart-wrap';
+      const tip=document.createElement('div');tip.className='tooltip';tip.setAttribute('aria-hidden','true');wrap.append(tip);
+      const footer=document.createElement('div');footer.className='chart-footer';footer.textContent='ค่าเฉลี่ยความชื้นสัมพัทธ์ตามชั้นความสูง · แกนนอนใช้วันที่ตรวจ · แกนตั้งเป็นเปอร์เซ็นต์ RH';
+      const draw=()=>{
+        const svg=svgEl('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':`MEAN RH ตามชั้นความสูง สถานี${station.name}`});
+        const seasons=[
+          {from:'2025-12-20',to:'2026-03-05',color:'#55c9d5'},
+          {from:'2026-03-05',to:'2026-05-22',color:'#dc4559'},
+          {from:'2026-05-22',to:'2026-10-29',color:'#e4bd36'},
+        ];
+        for(const season of seasons){const left=Math.max(minDate,dateValue(season.from)),right=Math.min(maxDate,dateValue(season.to));if(right>left)svg.append(svgEl('rect',{x:L+(left-minDate)/span*plotW,y:T,width:(right-left)/span*plotW,height:plotH,fill:season.color,opacity:'.1'}));}
+        const grid=svgEl('g');
+        for(let value=0;value<=100;value+=25){const yy=y(value);grid.append(svgEl('line',{x1:L,y1:yy,x2:W-R,y2:yy,class:'gridline'}));const label=svgEl('text',{x:L-9,y:yy+4,'text-anchor':'end',class:'axis-label'});label.textContent=`${value}%`;grid.append(label);}
+        const ticks=[];const cursor=new Date(Date.UTC(new Date(minDate).getUTCFullYear(),new Date(minDate).getUTCMonth(),1));while(cursor.getTime()<=maxDate){if(cursor.getTime()>=minDate)ticks.push(new Date(cursor));cursor.setUTCMonth(cursor.getUTCMonth()+1);}
+        for(const date of ticks){const xx=L+(date.getTime()-minDate)/span*plotW;grid.append(svgEl('line',{x1:xx,y1:T,x2:xx,y2:T+plotH,class:'gridline',opacity:'.7'}));const label=svgEl('text',{x:xx,y:H-23,'text-anchor':'middle',class:'axis-label'});label.textContent=monthFmt.format(date);grid.append(label);}
+        svg.append(grid);
+        for(const layer of layers.filter(item=>active.has(item.key))){
+          const points=station.records.filter(row=>Number.isFinite(row[layer.key]));let segment=[];
+          const flush=()=>{if(!segment.length)return;if(segment.length>1){svg.append(svgEl('polyline',{points:segment.map(row=>`${x(row)},${y(row[layer.key])}`).join(' '),fill:'none',stroke:layer.color,'stroke-width':'2.6','stroke-dasharray':layer.dash,'stroke-linejoin':'round','stroke-linecap':'round'}));}for(const row of segment){const point=svgEl('circle',{cx:x(row),cy:y(row[layer.key]),r:2.8,fill:layer.color,stroke:'#fff','stroke-width':'1','aria-label':`${layer.label}, ${dateFmt.format(new Date(dateValue(row.date)))}: ${numberFmt(row[layer.key],1)}%`});point.dataset.date=row.date;point.dataset.value=row[layer.key];point.dataset.layer=layer.label;point.dataset.color=layer.color;svg.append(point);}segment=[];};
+          for(const row of points){if(segment.length&&dateValue(row.date)-dateValue(segment.at(-1).date)>3*86400000)flush();segment.push(row);}flush();
+        }
+        if(!active.size){const message=svgEl('text',{x:W/2,y:H/2,'text-anchor':'middle',class:'layer-empty'});message.textContent='เลือกอย่างน้อยหนึ่งชั้นความสูง';svg.append(message);}
+        svg.addEventListener('pointerover',event=>{if(event.target.matches('circle[data-layer]')){const point=event.target;tip.innerHTML=`<div class="tip-date" style="color:${point.dataset.color}">${point.dataset.layer}</div><div class="tip-date">${dateFmt.format(new Date(dateValue(point.dataset.date)))}</div><div class="tip-value">${numberFmt(point.dataset.value,1)}%</div>`;tip.style.display='block';tip.style.left=`${Math.min(Math.max(point.cx.baseVal.value/W*100,5),82)}%`;tip.style.top=`${Math.max(point.cy.baseVal.value/H*100-16,2)}%`;}});
+        svg.addEventListener('pointerout',event=>{if(event.target.matches('circle[data-layer]'))tip.style.display='none'});
+        svg.addEventListener('focusin',event=>{if(event.target.matches('circle[data-layer]')){const point=event.target;tip.innerHTML=`<div class="tip-date" style="color:${point.dataset.color}">${point.dataset.layer}</div><div class="tip-date">${dateFmt.format(new Date(dateValue(point.dataset.date)))}</div><div class="tip-value">${numberFmt(point.dataset.value,1)}%</div>`;tip.style.display='block';tip.style.left=`${Math.min(Math.max(point.cx.baseVal.value/W*100,5),82)}%`;tip.style.top=`${Math.max(point.cy.baseVal.value/H*100-16,2)}%`;}});
+        svg.addEventListener('focusout',()=>{tip.style.display='none'});
+        wrap.replaceChildren(svg,tip);
+      };
+      for(const layer of layers){const button=document.createElement('button');button.type='button';button.className='layer-toggle';button.setAttribute('aria-pressed','true');const swatch=document.createElement('i');swatch.className='layer-swatch';swatch.style.background=layer.color;const text=document.createElement('span');text.textContent=layer.label;button.append(swatch,text);button.addEventListener('click',()=>{if(active.has(layer.key))active.delete(layer.key);else active.add(layer.key);button.setAttribute('aria-pressed',String(active.has(layer.key)));draw();});controls.append(button);}
+      draw();card.append(head,controls,wrap,footer);return card;
+    }
     function renderChart(item, station, stations) {
       const W=900,H=350,L=75,R=18,T=19,B=54, PW=W-L-R, PH=H-T-B;
       const plotted=[{...station,points:station.records.filter(d=>Number.isFinite(d[item.key]))}];
       const values=stations.flatMap(source=>source.records.filter(d=>Number.isFinite(d[item.key])).map(d=>d[item.key])); let lo=item.range?.[0]??Math.min(...values), hi=item.range?.[1]??Math.max(...values);
-      if(!item.range){lo=Math.min(lo,item.threshold);hi=Math.max(hi,item.threshold);const pad=(hi-lo)*.12;lo-=pad;hi+=pad;}
+      if(!item.range){if(Number.isFinite(item.threshold)){lo=Math.min(lo,item.threshold);hi=Math.max(hi,item.threshold);}const pad=(hi-lo)*.12;lo-=pad;hi+=pad;}
       if(lo===hi){lo-=1;hi+=1;}
       const dates=stations.flatMap(station=>station.records.map(d=>d.date)).sort();
       const minDate=dateValue(dates[0]), maxDate=dateValue(dates.at(-1)), span=Math.max(1,maxDate-minDate);
@@ -138,10 +265,10 @@
       while(cursor.getTime()<=maxDate){ if(cursor.getTime()>=minDate) tickDates.push(new Date(cursor)); cursor.setUTCMonth(cursor.getUTCMonth()+1); }
       for(const date of tickDates){ const xx=L+(date.getTime()-minDate)/span*PW; grid.append(svgEl('line',{x1:xx,y1:T,x2:xx,y2:T+PH,class:'gridline',opacity:'.7'})); const text=svgEl('text',{x:xx,y:H-23,'text-anchor':'middle',class:'axis-label'}); text.textContent=monthFmt.format(date); grid.append(text); }
       svg.append(grid);
-      const thresholdY=y(item.threshold);svg.append(svgEl('line',{x1:L,y1:thresholdY,x2:W-R,y2:thresholdY,stroke:'#f08080','stroke-width':'1.4'}));
+      if(Number.isFinite(item.threshold)){const thresholdY=y(item.threshold);svg.append(svgEl('line',{x1:L,y1:thresholdY,x2:W-R,y2:thresholdY,stroke:'#f08080','stroke-width':'1.4'}));}
       for(const station of plotted){
         let segment=[];
-        const drawSegment=()=>{ if(!segment.length)return; if(segment.length>1){ const points=segment.map(d=>`${x(d)},${y(d[item.key])}`).join(' '); svg.append(svgEl('polyline',{points,class:'series-line',stroke:station.color})); } segment.forEach(d=>{ const c=svgEl('circle',{cx:x(d),cy:y(d[item.key]),r:3.5,fill:station.color,class:'point',tabindex:'0','aria-label':`${station.name}, ${dateFmt.format(new Date(dateValue(d.date)))}: ${numberFmt(d[item.key],item.precision)} ${item.unit||''}`}); c.dataset.date=d.date;c.dataset.value=d[item.key];c.dataset.precision=item.precision;c.dataset.unit=item.unit||'';c.dataset.station=station.name; svg.append(c); }); segment=[]; };
+        const drawSegment=()=>{ if(!segment.length)return; if(segment.length>1 && item.connect!==false){ const points=segment.map(d=>`${x(d)},${y(d[item.key])}`).join(' '); svg.append(svgEl('polyline',{points,class:'series-line',stroke:station.color})); } segment.forEach(d=>{ const c=svgEl('circle',{cx:x(d),cy:y(d[item.key]),r:3.5,fill:station.color,class:'point',tabindex:'0','aria-label':`${station.name}, ${dateFmt.format(new Date(dateValue(d.date)))}: ${numberFmt(d[item.key],item.precision)} ${item.unit||''}`}); c.dataset.date=d.date;c.dataset.value=d[item.key];c.dataset.precision=item.precision;c.dataset.unit=item.unit||'';c.dataset.station=station.name; svg.append(c); }); segment=[]; };
         for(const d of station.points){ if(segment.length && dateValue(d.date)-dateValue(segment.at(-1).date)>3*86400000) drawSegment(); segment.push(d); } drawSegment();
       }
       const card=document.createElement('article'); card.className='chart-card';
@@ -158,7 +285,7 @@
       svg.addEventListener('focusout',()=>{tip.style.display='none'});
       const footer=document.createElement('div');footer.className='chart-footer';
       const validStations=plotted.filter(station=>station.points.length);
-      footer.innerHTML=`${validStations.map(station=>`<span class="legend-item"><i style="display:inline-block;width:25px;height:0;border-top:2px dashed ${station.color}"></i>${station.name} · 00Z</span>`).join('')}<span class="legend-item"><i class="legend-threshold"></i>${item.thresholdLabel}</span><span class="legend-item"><i class="season-chip" style="background:#55c9d5"></i>ฤดูหนาว</span><span class="legend-item"><i class="season-chip" style="background:#dc4559"></i>ฤดูร้อน</span><span class="legend-item"><i class="season-chip" style="background:#e4bd36"></i>ฤดูฝน</span>`;
+      footer.innerHTML=`${validStations.map(station=>`<span class="legend-item"><i style="display:inline-block;width:25px;height:0;border-top:2px dashed ${station.color}"></i>${station.name} · 00Z</span>`).join('')}${Number.isFinite(item.threshold)?`<span class="legend-item"><i class="legend-threshold"></i>${item.thresholdLabel}</span>`:''}<span class="legend-item"><i class="season-chip" style="background:#55c9d5"></i>ฤดูหนาว</span><span class="legend-item"><i class="season-chip" style="background:#dc4559"></i>ฤดูร้อน</span><span class="legend-item"><i class="season-chip" style="background:#e4bd36"></i>ฤดูฝน</span>`;
       card.append(head,wrap,footer); return card;
     }
     try {
@@ -175,8 +302,8 @@
       for(const item of series){const card=document.createElement('article');card.className='metric-card';const name=document.createElement('div');name.className='metric-name';name.textContent=item.dashTitle;card.append(name);for(const station of stations){const latest=[...station.records].reverse().find(row=>Number.isFinite(row[item.key]));const row=document.createElement('div');row.className='metric-row';const label=document.createElement('div');label.className='metric-station';label.textContent=station.name;const value=document.createElement('div');value.className='metric-value';const date=document.createElement('div');date.className='metric-date';if(latest){value.textContent=`${numberFmt(latest[item.key],item.precision)}${item.unit?` ${item.unit}`:''}`;date.textContent=dateFmt.format(new Date(dateValue(latest.date)));}else{value.textContent='—';date.textContent='ไม่มีข้อมูลในต้นทาง';}row.append(label,value,date);card.append(row);}metrics.append(card);}
       const tabs=document.getElementById('tabs'),stationTabs=document.getElementById('station-tabs'),panel=document.getElementById('chart-panel');
       let selectedStation=0;
-      const selectChart=index=>{tabs.querySelectorAll('[role="tab"]').forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1});panel.replaceChildren(renderChart(series[index],stations[selectedStation],stations));panel.setAttribute('aria-labelledby',`tab-${index}`);};
-      series.forEach((item,index)=>{const tab=document.createElement('button');tab.type='button';tab.className='plot-tab';tab.id=`tab-${index}`;tab.setAttribute('role','tab');tab.setAttribute('aria-selected',String(index===0));tab.setAttribute('aria-controls','chart-panel');tab.tabIndex=index===0?0:-1;tab.textContent=item.short;tab.addEventListener('click',()=>selectChart(index));tab.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const next=(index+(e.key==='ArrowRight'?1:-1)+series.length)%series.length;tabs.querySelectorAll('[role="tab"]')[next].focus();selectChart(next);}});tabs.append(tab)});
+      const selectChart=index=>{tabs.querySelectorAll('[role="tab"]').forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1});const item=plotItems[index];const chart=item.type==='windRose'?renderWindRose(stations[selectedStation]):item.type==='rhLayers'?renderRhLayers(stations[selectedStation],stations):renderChart(item,stations[selectedStation],stations);panel.replaceChildren(chart);panel.setAttribute('aria-labelledby',`tab-${index}`);};
+      plotItems.forEach((item,index)=>{const tab=document.createElement('button');tab.type='button';tab.className='plot-tab';tab.id=`tab-${index}`;tab.setAttribute('role','tab');tab.setAttribute('aria-selected',String(index===0));tab.setAttribute('aria-controls','chart-panel');tab.tabIndex=index===0?0:-1;tab.textContent=item.short;tab.addEventListener('click',()=>selectChart(index));tab.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const next=(index+(e.key==='ArrowRight'?1:-1)+plotItems.length)%plotItems.length;tabs.querySelectorAll('[role="tab"]')[next].focus();selectChart(next);}});tabs.append(tab)});
       stations.forEach((station,index)=>{const tab=document.createElement('button');tab.type='button';tab.className='station-tab';tab.id=`station-tab-${index}`;tab.setAttribute('role','tab');tab.setAttribute('aria-selected',String(index===0));tab.setAttribute('aria-controls','chart-panel');tab.tabIndex=index===0?0:-1;tab.innerHTML=`<i class="station-dot" style="background:${station.color}"></i>${station.name}`;tab.addEventListener('click',()=>{selectedStation=index;stationTabs.querySelectorAll('[role="tab"]').forEach((button,i)=>{button.setAttribute('aria-selected',String(i===index));button.tabIndex=i===index?0:-1});selectChart(tabs.querySelector('[aria-selected="true"]')?Array.from(tabs.children).indexOf(tabs.querySelector('[aria-selected="true"]')):0)});stationTabs.append(tab)});
       selectChart(0);
     } catch { document.getElementById('error').style.display='block'; }
